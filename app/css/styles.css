@@ -1,0 +1,64 @@
+html, body {
+  height: 100%; }
+
+.bg-header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 188, 156, 0.2)), to(rgba(26, 188, 156, 0.2))), url(../images/clean.jpg) no-repeat center center;
+  background: linear-gradient(rgba(26, 188, 156, 0.2), rgba(26, 188, 156, 0.2)), url(../images/clean.jpg) no-repeat center center;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  margin-top: 0; }
+  .bg-header h1 {
+    color: #ffffff;
+    font-family: "Roboto-Thin", sans-serif;
+    text-transform: uppercase; }
+    @media only screen and (min-width: 300px) {
+      .bg-header h1 {
+        font-size: 1.3em;
+        letter-spacing: .8em;
+        margin-left: .8em;
+        padding-top: 40%; } }
+    @media only screen and (min-width: 600px) {
+      .bg-header h1 {
+        letter-spacing: .1em;
+        margin-left: .1em;
+        padding-top: 30%; } }
+    @media only screen and (min-width: 800px) {
+      .bg-header h1 {
+        font-size: 2.3em;
+        letter-spacing: .4em;
+        margin-left: .4em;
+        padding-top: 25%; } }
+    @media only screen and (min-width: 1025px) {
+      .bg-header h1 {
+        font-size: 2.5em;
+        letter-spacing: .7em;
+        margin-left: .7em;
+        padding-top: 18%; } }
+  .bg-header h3 {
+    color: #1abc9c;
+    font-size: 1em;
+    font-family: "Roboto-Medium", sans-serif;
+    letter-spacing: .2em;
+    text-transform: uppercase; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-family: "Roboto-Regular", sans-serif; }
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #ffffff; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  -webkit-transition: width .5s ease, color .5s ease;
+  transition: width .5s ease, color .5s ease; }
+  .navbar-light .navbar-nav .nav-link:hover:after {
+    background-color: #1abc9c;
+    width: 100%; }
+
+nav#myNavbar, nav#myNavbar a {
+  -webkit-transition: .8s;
+  transition: .8s;
+  -webkit-transition-delay: .4s;
+          transition-delay: .4s; }
