@@ -58,6 +58,14 @@ html, body {
   //CURRENTLY DOES NOT WORK
   color: $main-green;
 }
+nav a:after {
+  content: '';
+  display: block;
+  height: 2px;
+  margin: auto;
+  transition: width .5s ease, background-color .5s ease;
+  width: 0;
+}
 .navbar-light .navbar-nav .nav-link:focus {
   color: $white;
 }
@@ -68,17 +76,9 @@ html, body {
     background-color: $main-green;
     width: 100%;
   }
-  nav a:after {
-    content: '';
-    display: block;
-    height: 2px;
-    margin: auto;
-    transition: width .5s ease, background-color .5s ease;
-    width: 0;
-  }
 }
-// NAVBAR SCROLL
+// NAVBAR STYLE ON SCROLL
 nav#myNavbar, nav#myNavbar a {
-  transition: .8s;
+  transition: .5s;
     transition-delay: .4s;
 }

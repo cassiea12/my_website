@@ -46,6 +46,15 @@ html, body {
   color: #ffffff;
   font-family: "Roboto-Regular", sans-serif; }
 
+nav a:after {
+  content: '';
+  display: block;
+  height: 2px;
+  margin: auto;
+  -webkit-transition: width .5s ease, background-color .5s ease;
+  transition: width .5s ease, background-color .5s ease;
+  width: 0; }
+
 .navbar-light .navbar-nav .nav-link:focus {
   color: #ffffff; }
 
@@ -58,7 +67,7 @@ html, body {
     width: 100%; }
 
 nav#myNavbar, nav#myNavbar a {
-  -webkit-transition: .8s;
-  transition: .8s;
+  -webkit-transition: .5s;
+  transition: .5s;
   -webkit-transition-delay: .4s;
           transition-delay: .4s; }
