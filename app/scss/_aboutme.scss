@@ -1,0 +1,97 @@
+.about-me {
+  padding: 5em 2em;
+}
+// HEADSHOT
+.headshot {
+  @media only screen and (max-width: 500px) {
+    padding: 0 0 0 3em;
+    width: 90%;
+  }
+  @media only screen and (min-width: 600px) {
+    padding-right: 3em;
+    width: 100%;
+  }
+  @media only screen and (min-width: 1200px) {
+    padding-right: 4em;
+    width: 80%;
+  }
+}
+// TABS
+ul.tabs{
+  margin: 0;
+  list-style: none;
+  font-size: 1.5em;
+  @media only screen and (max-width: 500px) {
+    padding: 0 0 1.5em 0;
+    li {
+      margin-right: .1em;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    padding: 0 0 1em 2em;
+    li {
+      margin-right: .8em;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    padding: 0 0 2em 6em;
+    li {
+      margin-right: 2em;
+    }
+  }
+}
+ul.tabs li.not-current{
+  @extend .inline-block;
+  background: none;
+  color: $main-green;
+  cursor: pointer;
+  transition: .5s;
+  padding: 0 .5em;
+  &:hover {
+    background: rgba(26,188,156,.5);
+    color: $white;
+    @extend .inline-block;
+    cursor: pointer;
+    padding: 0 .5em;
+  }
+}
+ul.tabs li.current {
+  @extend .inline-block;
+  border: solid 1px $main-green;
+  color: $main-green;
+  padding: 0 .5em;
+  &:hover {
+    background: rgba(26, 188, 156, .5);
+    color: $white;
+    @extend .inline-block;
+    cursor: pointer;
+    padding: 0 .5em;
+  }
+}
+// TAB CONTENT
+.tab-content{
+  display: none;
+  @media only screen and (max-width: 500px) {
+    padding: 0 0 3em 0;
+  }
+  @media only screen and (min-width: 600px) {
+    padding: 0 4em 3em 5em;
+  }
+  @media only screen and (min-width: 1000px) {
+    padding: 0 7em 0 11em;
+  }
+}
+.tab-content.current{
+  display: inherit;
+}
+a.social:link, a:visited {
+  @extend .inline-block;
+  color: $light-grey;
+  transition: all .2s ease-in-out;
+}
+a.social:hover {
+  text-decoration: none;
+  color: $main-green;
+  transition: all .2s ease-in-out;
+  transform: scale(1.5);
+}

@@ -3,6 +3,7 @@ html, body {
 }
 .bg-header {
   background: linear-gradient(rgba(26, 188, 156, .2), rgba(26, 188, 156, .2)), url(../images/clean.jpg) no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
   min-width: 100%;
   min-height: 100%;
@@ -54,8 +55,9 @@ html, body {
 }
 
 // NAV HOVER ANIMATION
+
+//CURRENTLY DOES NOT WORK
 .navbar-light .navbar-nav .nav-link a.current:link {
-  //CURRENTLY DOES NOT WORK
   color: $main-green;
 }
 nav a:after {

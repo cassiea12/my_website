@@ -9,7 +9,7 @@ $(document).ready(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
                 $(".navbar-light").css('background-color', 'rgba(255,255,255,.8)');
-                $(".navbar-light .navbar-nav a").css('color', '#6b6b6b');
+                $(".navbar-light .navbar-nav a").css('color', '#636363');
             } else {
                 $('.navbar-light').css('background-color', 'transparent');
                 $(".navbar-light .navbar-nav a").css('color', 'white');
@@ -44,3 +44,17 @@ $navItem.on('click', function (event) {
         });
     }
 });
+
+$(document).ready(function(){
+
+    $('ul.tabs li').click(function(){
+        var tab_id = $(this).attr('data-tab');
+
+        $('ul.tabs li').removeClass('current').addClass('not-current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current').removeClass('not-current');
+        $("#"+tab_id).addClass('current').removeClass('not-current');
+    })
+
+})
