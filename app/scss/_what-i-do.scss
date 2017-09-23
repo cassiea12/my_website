@@ -1,0 +1,52 @@
+.what-i-do {
+  background-color: $bg-tan;
+  padding: 6em 4em;
+  height: 50em;
+}
+
+.whatido-img {
+  width: 100%;
+}
+
+.progress.skills {
+  height: 2em;
+  border-radius: .80em;
+}
+
+.progress-bar {
+  animation: progress .8s ease-in-out;
+  background-color: $main-green;
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes show  {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.what-i-do--pad {
+  padding: 3em 4em;
+  border: solid 1.5px grey;
+}
+
+.col-12.what-i-do--pad.mx-auto{
+  //height: 25em;
+  @media only screen and (min-width: 300px) {
+    padding: 3em 1.5em;
+    margin-bottom: 1em;
+  }
+  @media only screen and (min-width: 600px) {
+    padding: 3em 2em;
+  }
+}

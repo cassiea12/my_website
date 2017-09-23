@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: $r-medium;
   color: $dark-grey;
 }
@@ -9,4 +9,16 @@ li{
 
 p {
   color: $light-grey;
+  font-family: $r-medium;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-family: $r-thin;
+  color: $dark-grey;
+}
+
+.text-sm--green {
+  color: $main-green;
+  font-size: .8em;
 }

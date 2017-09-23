@@ -79,7 +79,7 @@ nav#myNavbar, nav#myNavbar a {
 ul.tabs li.not-current, ul.tabs li.not-current:hover, ul.tabs li.current, ul.tabs li.current:hover, a.social:link, a:visited {
   display: inline-block; }
 
-h1, h3 {
+h1 {
   font-family: "Roboto-Regular";
   color: #696969; }
 
@@ -87,10 +87,20 @@ li {
   font-family: "Roboto-Thin"; }
 
 p {
-  color: #636363; }
+  color: #636363;
+  font-family: "Roboto-Regular"; }
+
+h2 {
+  font-size: 1.8em;
+  font-family: "Roboto-Thin";
+  color: #696969; }
+
+.text-sm--green {
+  color: #1abc9c;
+  font-size: .8em; }
 
 .about-me {
-  padding: 5em 2em; }
+  padding: 6em 2em; }
 
 @media only screen and (max-width: 500px) {
   .headshot {
@@ -177,3 +187,42 @@ a.social:hover {
   transition: all .2s ease-in-out;
   -webkit-transform: scale(1.5);
           transform: scale(1.5); }
+
+.what-i-do {
+  background-color: #fdf8f7;
+  padding: 6em 4em;
+  height: 50em; }
+
+.progress.skills {
+  height: 2em;
+  border-radius: .80em; }
+
+.progress-bar {
+  -webkit-animation: progress .8s ease-in-out;
+          animation: progress .8s ease-in-out;
+  background-color: #1abc9c; }
+
+@-webkit-keyframes progress {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
+@keyframes progress {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
+.what-i-do--pad {
+  padding: 3em 4em;
+  border: solid 1.5px grey; }
+
+@media only screen and (min-width: 300px) {
+  .col-12.what-i-do--pad.mx-auto {
+    padding: 3em 1.5em;
+    margin-bottom: 1em; } }
+
+@media only screen and (min-width: 600px) {
+  .col-12.what-i-do--pad.mx-auto {
+    padding: 3em 2em; } }
