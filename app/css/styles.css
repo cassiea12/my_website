@@ -226,3 +226,14 @@ a.social:hover {
 @media only screen and (min-width: 600px) {
   .col-12.what-i-do--pad.mx-auto {
     padding: 3em 2em; } }
+
+.quote {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 188, 156, 0.4)), to(rgba(26, 188, 156, 0.4))), url(../images/design.jpg) no-repeat center top;
+  background: linear-gradient(rgba(26, 188, 156, 0.4), rgba(26, 188, 156, 0.4)), url(../images/design.jpg) no-repeat center top;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover; }
