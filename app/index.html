@@ -25,7 +25,7 @@
         </button>
         <div class="collapse navbar-collapse text-center" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item currentLink">
                     <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -65,7 +65,7 @@
                 <div class="col-12 col-sm-12 col-md-12">
 
                     <ul class="tabs">
-                        <li class="tab-link current mb-2" data-tab="tab-1">Bio</li>
+                        <li class="tab-link currentTab mb-2" data-tab="tab-1">Bio</li>
                         <li class="tab-link mb-2 not-current" data-tab="tab-2">Passions</li>
                         <li class="tab-link mb-2 not-current" data-tab="tab-3">Contact</li>
                     </ul>
@@ -73,7 +73,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <article id="tab-1" class="col-12 tab-content current">
+                    <article id="tab-1" class="col-12 tab-content currentTab">
                         <p>Born and raised in the countryside, I moved to LA in 2015 to complete my BA at California
                             State University Northridge, majoring in Multimedia Production. I
                             currently work as a Front-end Developer at META+Lab in Los Angeles County.
@@ -222,7 +222,7 @@
     </div>
     <article class="row  animation-element fadeInUp">
         <div class="col-sm-4">
-            <figure class="snip0015">
+            <figure class="snip0015 project" data-toggle="modal" data-target="#exampleModalLong">
                 <img src="images/documentary.jpg" alt="sample38"/>
                 <figcaption>
                     <h2 class="text-white">Documentary Website <span>Design</span></h2>
@@ -231,7 +231,7 @@
             </figure>
         </div>
         <div class="col-sm-4">
-            <figure class="snip0015">
+            <figure class="snip0015 project">
                 <img src="images/documentary.jpg" alt="sample38"/>
                 <figcaption class="my-auto">
                     <h2 class="text-white">Documentary Website <span>Design</span></h2>
@@ -239,8 +239,11 @@
                 </figcaption>
             </figure>
         </div>
+        <div id="contact">
+
+        </div>
         <div class="col-sm-4">
-            <figure class="snip0015">
+            <figure class="snip0015 project">
                 <img src="images/documentary.jpg" alt="sample38"/>
                 <figcaption>
                     <h2 class="text-white">Documentary Website <span>Design</span></h2>
@@ -250,45 +253,62 @@
         </div>
     </article>
 </section>
+<!-- PORTFOLIO MODALS -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-times text-green fa-lg" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="modal-body project-padding">
+                <h1 class="modal-title pb-1" id="exampleModalLongTitle">Mile, Mile & A Half</h1>
+                <h2 class="pb-1">Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur consequatur est hic laudantium nisi nostrum officiis, perferendis possimus quidem tempora vero voluptates. Amet distinctio enim eum nesciunt quos. Consequatur.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nulla possimus suscipit ullam! A at beatae distinctio eaque esse eveniet, iusto odio perferendis quae reprehenderit sed tempore vitae! Earum, omnis.</p>
+                <img src="images/headshot.jpg">
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Contact Me -->
-<footer class="container-fluid contact" id="contact">
+<footer class="container-fluid">
     <div class="row parallax contactme">
         <div class="col-12">
-            <div class="row">
-                <div class="row pt-4 pl-5">
-                    <div class="col-12 pb-4">
-                        <h1 class="text-white">Contact Me</h1>
+            <div class="row pt-4 pl-5 pb-4">
+                    <div class="col-sm-12 col-md-5 col-lg-3">
+                        <h1 class="text-white text-center">Contact Me</h1>
                         <div class="title-underline">
 
                         </div>
                     </div>
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-4 pt-2">
+                    <p class="text-white">If you are interested in working with me, want to grab a coffee,
+                        or just have a chat, <a href="mailto:cassandra.amantite@gmail.com">send me an email</a><span class="sr-only">cassandra.amantite@gmail.com</span></p>
                 </div>
-                <div class="row pt-2 mx-auto">
-                    <div class="col-sm-4 pl-5">
-                        <p class="text-white">If you are interested in working with me, want to grab a coffee,
-                        or just have a chat, <a href="mailto:cassandra.amantite@gmail.com">send me an email.</a><span class="sr-only">cassandra.amantite@gmail.com</span></p>
-                    </div>
-                    <div class="col-sm-8 text-right">
-                        <p class="float-right pr-4"><a href="https://www.linkedin.com/in/cassandra-amantite/"
-                                                       target="_blank" class="social"><i
-                                class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a><span class="sr-only">linkedIn</span>
-                        </p>
-                        <p class="float-right pr-4"><a href="https://github.com/cassiea12" target="_blank"
-                                                       class="social"><i class="fa fa-github fa-3x"
-                                                                         aria-hidden="true"></i></a><span
-                                class="sr-only">GitHub</span></p>
-                        <p class="float-right pr-4"><a href="mailto:cassandra.amantite@gmail.com" class="social"><i
-                                class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a><span
-                                class="sr-only">Email</span></p>
-                        <p class="float-right pr-4 pb-5"><a href="#" target="_blank" class="social"><i
-                                class="fa fa-file-text-o fa-3x" aria-hidden="true"></i></a><span
-                                class="sr-only">Resume</span></p>
-                    </div>
+                <div class="col-sm-8">
+                    <p class="float-right pr-4"><a href="https://www.linkedin.com/in/cassandra-amantite/"
+                                                   target="_blank" class="social"><i
+                            class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a><span class="sr-only">linkedIn</span>
+                    </p>
+                    <p class="float-right pr-4"><a href="https://github.com/cassiea12" target="_blank"
+                                                   class="social"><i class="fa fa-github fa-3x"
+                                                                     aria-hidden="true"></i></a><span
+                            class="sr-only">GitHub</span></p>
+                    <p class="float-right pr-4"><a href="mailto:cassandra.amantite@gmail.com" class="social"><i
+                            class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a><span
+                            class="sr-only">Email</span></p>
+                    <p class="float-right pr-4 pb-5"><a href="#" target="_blank" class="social"><i
+                            class="fa fa-file-text-o fa-3x" aria-hidden="true"></i></a><span
+                            class="sr-only">Resume</span></p>
                 </div>
-                <div class="row mx-auto">
-                    <div class="col-sm-12">
-                        <p class="footer-text"> Hand Coded and Designed by Cassandra Amantite</p>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="footer-text text-center"> Hand Coded and Designed by Cassandra Amantite</p>
                 </div>
             </div>
         </div>

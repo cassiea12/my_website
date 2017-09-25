@@ -57,6 +57,9 @@ body {
   text-align: left;
   background-color: #fff; }
 
+[tabindex="-1"]:focus {
+  outline: none !important; }
+
 h1, h2, h3 {
   margin-top: 0;
   margin-bottom: .5rem; }
@@ -152,7 +155,7 @@ h3 {
   margin-right: -15px;
   margin-left: -15px; }
 
-.col-12, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-12, .col-md-4, .col-md-8, .col-md-12 {
+.col-12, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-12, .col-md-4, .col-md-5, .col-md-8, .col-md-12, .col-lg-3 {
   position: relative;
   width: 100%;
   min-height: 1px;
@@ -193,6 +196,11 @@ h3 {
         -ms-flex: 0 0 33.33333%;
             flex: 0 0 33.33333%;
     max-width: 33.33333%; }
+  .col-md-5 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.66667%;
+            flex: 0 0 41.66667%;
+    max-width: 41.66667%; }
   .col-md-8 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 66.66667%;
@@ -203,6 +211,13 @@ h3 {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
     max-width: 100%; } }
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%; } }
   .form-control::-webkit-input-placeholder {
     color: #868e96;
     opacity: 1; }
@@ -396,6 +411,25 @@ tbody.collapse.show {
 .progress-bar-animated {
   -webkit-animation: progress-bar-stripes 1s linear infinite;
           animation: progress-bar-stripes 1s linear infinite; }
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5; }
+  .close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    opacity: .75; }
+
+button.close {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none; }
 
 .modal-open {
   overflow: hidden; }
@@ -760,6 +794,9 @@ tbody.collapse.show {
 .mb-2 {
   margin-bottom: 0.5rem !important; }
 
+.pb-1 {
+  padding-bottom: 0.25rem !important; }
+
 .pt-2 {
   padding-top: 0.5rem !important; }
 
@@ -790,9 +827,6 @@ tbody.collapse.show {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important; }
-
-.text-right {
-  text-align: right !important; }
 
 .text-center {
   text-align: center !important; }

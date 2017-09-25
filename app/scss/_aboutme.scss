@@ -1,6 +1,5 @@
 .about-me {
   padding: 6em 2em;
-  //height: 44em;
 }
 // HEADSHOT
 .headshot {
@@ -49,20 +48,20 @@ ul.tabs li.not-current{
   transition: .5s;
   padding: 0 .5em;
   &:hover {
-    background: rgba(26,188,156,.5);
+    background: rgba(27, 195, 159, .7);
     color: $white;
     @extend .inline-block;
     cursor: pointer;
     padding: 0 .5em;
   }
 }
-ul.tabs li.current {
+ul.tabs li.currentTab {
   @extend .inline-block;
   border: solid 1px $main-green;
   color: $main-green;
   padding: 0 .5em;
   &:hover {
-    background: rgba(26, 188, 156, .5);
+    background: rgba(27, 195, 159, .7);
     color: $white;
     @extend .inline-block;
     cursor: pointer;
@@ -82,17 +81,17 @@ ul.tabs li.current {
     padding: 0 7em 0 11em;
   }
 }
-.tab-content.current{
+.tab-content.currentTab{
   display: inherit;
 }
 a.social:link, a:visited {
   @extend .inline-block;
-  color: $main-green;
+  color: $blue-accent;
   transition: all .2s ease-in-out;
 }
 a.social:hover {
   text-decoration: none;
-  color: $blue-accent;
+  color: $main-green;
   transition: all .2s ease-in-out;
   transform: scale(1.5);
 }

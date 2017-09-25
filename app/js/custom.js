@@ -23,7 +23,6 @@ onReady(function () {
 });
 
 // ANIMATION ELEMENTS
-
 var $animation_elements = $('.animation-element');
 var $window = $(window);
 $window.on('scroll', check_if_in_view);
@@ -51,8 +50,6 @@ function check_if_in_view() {
     });
 }
 
-
-
 // ON SCROLL CHANGE NAVBAR STYLE
 $(document).ready(function () {
     var scroll_start = 0;
@@ -63,56 +60,101 @@ $(document).ready(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
                 $(".navbar-light").css('background-color', 'rgba(255,255,255,1)');
-                $(".navbar-light .navbar-nav a").css('color', '#636363');
+                $(".navbar-light").css('border-bottom', 'solid 1px #446467');
+                $(".navbar-light .navbar-nav a").css('color', '#446467');
                 $(".navbar-collapse").css('background-color', 'transparent');
-                $(".navbar-collapse .navbar-nav a").css('color', '#636363');
+                $(".navbar-collapse .navbar-nav a").css('color', '#446467');
             } else {
                 $('.navbar-light').css('background-color', 'transparent');
-                $(".navbar-light .navbar-nav a").css('color', 'white');
+                $(".navbar-light").css('border-bottom', 'none');
+                $(".navbar-light .navbar-nav a").css('color', '#446467');
                 $('.navbar-collappse').css('background-color', 'rgba(255,255,255,1)');
-                $(".navbar-collapse .navbar-nav a").css('color', 'grey');
+                $(".navbar-collapse .navbar-nav a").css('color', '#446467');
 
             }
         });
     }
 
-// ADDS CLASS "CURRENT"
-    $('.nav-item a').click(function (e) {
+// ADDS CLASS "CURRENTLINK" to nav
+    $('.navbar-light .navbar-nav .nav-item').click(function (e) {
         e.preventDefault();
-        $('a').removeClass('current');
-        $(this).addClass('current');
+        $('.navbar-light .navbar-nav .nav-item').removeClass('currentLink').addClass('not-currentLink');
+        $(this).removeClass('not-CurrentLink').addClass('currentLink');
     });
 });
 
 // SCROLLABLE NAVIGATION
-var $navItem = $('#myNavbar a');
-//When a user clicks a nav item...
-$navItem.on('click', function (event) {
-    // if there is a hash tag
-    if (this.hash !== "") {
-        // stop the normal link from firing
-        event.preventDefault();
-        // store the hash tag in a local variable
-        var hash = this.hash;
-        // scroll the document from the current location to the location of the hashtag.
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top
-        }, 800, function () {
-            window.location.hash = hash;  // Update the hash tag in the location bar
-        });
+
+
+// Cache selectors
+var lastId,
+    topMenu = $(".navbar-nav"),
+    topMenuHeight = topMenu.outerHeight()+15,
+    // All list items
+    menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+    scrollItems = menuItems.map(function(){
+        var item = $($(this).attr("href"));
+        if (item.length) { return item; }
+    });
+
+// Bind click handler to menu items
+// so we can get a fancy scroll animation
+menuItems.click(function(e){
+    var href = $(this).attr("href"),
+        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+    $('html, body').stop().animate({
+        scrollTop: offsetTop
+    }, 300);
+    e.preventDefault();
+});
+
+// Bind to scroll
+$(window).scroll(function(){
+    // Get container scroll position
+    var fromTop = $(this).scrollTop()+topMenuHeight;
+
+    // Get id of current scroll item
+    var cur = scrollItems.map(function(){
+        if ($(this).offset().top < fromTop)
+            return this;
+    });
+    // Get the id of the current element
+    cur = cur[cur.length-1];
+    var id = cur && cur.length ? cur[0].id : "";
+
+    if (lastId !== id) {
+        lastId = id;
+        // Set/remove active class
+        menuItems
+            .parent().removeClass("currentLink")
+            .end().filter("[href='#"+id+"']").parent().addClass("currentLink");
     }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+// ABOUT ME TABS
 
 $(document).ready(function(){
 
     $('ul.tabs li').click(function(){
         var tab_id = $(this).attr('data-tab');
 
-        $('ul.tabs li').removeClass('current').addClass('not-current');
-        $('.tab-content').removeClass('current');
+        $('ul.tabs li').removeClass('currentTab').addClass('not-current');
+        $('.tab-content').removeClass('currentTab');
 
-        $(this).addClass('current').removeClass('not-current');
-        $("#"+tab_id).addClass('current').removeClass('not-current');
+        $(this).addClass('currentTab').removeClass('not-current');
+        $("#"+tab_id).addClass('currentTab').removeClass('not-current');
     })
 
-})
+});
