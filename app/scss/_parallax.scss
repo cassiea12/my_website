@@ -1,0 +1,19 @@
+.contactme {
+  @extend .parallax;
+  height: 16em;
+  background: linear-gradient(rgba(166, 255, 237, 0.5), rgba(166, 255, 237, 0.2)), url(../images/coffee4.jpg) center center;
+}
+
+.working {
+  @extend .parallax;
+  height: 15em;
+  background: linear-gradient(rgba(26, 188, 156, .1), rgba(26, 188, 156, .4)), url(../images/design.jpg) center top;
+}
+
+
+.parallax {
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

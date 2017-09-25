@@ -1,6 +1,6 @@
 h1 {
   font-family: $r-medium;
-  color: $dark-grey;
+  color: $header;
 }
 
 li{
@@ -21,4 +21,28 @@ h2 {
 .text-sm--green {
   color: $main-green;
   font-size: .8em;
+}
+
+.footer-text {
+  font-size:.8em;
+  color: $blue-accent;
+  font-family: $r-medium;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.title-underline {
+  border-top: 3px solid $main-green;
+  width: 70px;
+  margin: 1em auto 0;
+}
+
+a:link {
+  color: $blue-accent;
+}
+
+a:hover {
+  //text-decoration: none;
+  color: $main-green;
 }

@@ -87,12 +87,12 @@ ul.tabs li.current {
 }
 a.social:link, a:visited {
   @extend .inline-block;
-  color: $light-grey;
+  color: $main-green;
   transition: all .2s ease-in-out;
 }
 a.social:hover {
   text-decoration: none;
-  color: $main-green;
+  color: $blue-accent;
   transition: all .2s ease-in-out;
   transform: scale(1.5);
 }

@@ -1,7 +1,7 @@
 .what-i-do {
   background-color: $bg-tan;
-  padding: 6em 4em;
-  height: 50em;
+  padding: 9em 4em 13em 4em;
+  //height: 50em;
 }
 
 .whatido-img {
@@ -13,31 +13,10 @@
   border-radius: .80em;
 }
 
-.progress-bar {
-  animation: progress .8s ease-in-out;
-  background-color: $main-green;
-}
-
-@keyframes progress {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-@keyframes show  {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 .what-i-do--pad {
   padding: 3em 4em;
-  border: solid 1.5px grey;
+  border: solid 1.5px $header;
 }
 
 .col-12.what-i-do--pad.mx-auto{
@@ -49,4 +28,8 @@
   @media only screen and (min-width: 600px) {
     padding: 3em 2em;
   }
+}
+
+.progress-bar {
+  background-color: $blue-accent;
 }
