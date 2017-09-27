@@ -60,7 +60,7 @@ body {
 [tabindex="-1"]:focus {
   outline: none !important; }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
   margin-top: 0;
   margin-bottom: .5rem; }
 
@@ -122,7 +122,7 @@ button::-moz-focus-inner,
   font: inherit;
   -webkit-appearance: button; }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -137,6 +137,9 @@ h2 {
 
 h3 {
   font-size: 1.75rem; }
+
+h5 {
+  font-size: 1.25rem; }
 
 .container-fluid {
   width: 100%;
@@ -155,12 +158,38 @@ h3 {
   margin-right: -15px;
   margin-left: -15px; }
 
-.col-12, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-12, .col-md-4, .col-md-5, .col-md-8, .col-md-12, .col-lg-3 {
+.col-5, .col-6, .col-7, .col-12, .col, .col-sm-4, .col-sm-6, .col-sm-12, .col-md-4, .col-md-5, .col-md-8, .col-md-12, .col-lg-3 {
   position: relative;
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
+
+.col {
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-width: 100%; }
+
+.col-5 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 41.66667%;
+          flex: 0 0 41.66667%;
+  max-width: 41.66667%; }
+
+.col-6 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%; }
+
+.col-7 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 58.33333%;
+          flex: 0 0 58.33333%;
+  max-width: 58.33333%; }
 
 .col-12 {
   -webkit-box-flex: 0;
@@ -179,11 +208,6 @@ h3 {
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
     max-width: 50%; }
-  .col-sm-8 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 66.66667%;
-            flex: 0 0 66.66667%;
-    max-width: 66.66667%; }
   .col-sm-12 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
@@ -794,11 +818,23 @@ button.close {
 .mb-2 {
   margin-bottom: 0.5rem !important; }
 
+.mt-4 {
+  margin-top: 1.5rem !important; }
+
+.mb-4 {
+  margin-bottom: 1.5rem !important; }
+
+.mb-5 {
+  margin-bottom: 3rem !important; }
+
 .pb-1 {
   padding-bottom: 0.25rem !important; }
 
 .pt-2 {
   padding-top: 0.5rem !important; }
+
+.pb-3 {
+  padding-bottom: 1rem !important; }
 
 .pt-4 {
   padding-top: 1.5rem !important; }
@@ -808,6 +844,9 @@ button.close {
 
 .pb-4 {
   padding-bottom: 1.5rem !important; }
+
+.p-5 {
+  padding: 3rem !important; }
 
 .pb-5 {
   padding-bottom: 3rem !important; }
@@ -828,8 +867,17 @@ button.close {
 .mx-auto {
   margin-left: auto !important; }
 
+@media (min-width: 768px) {
+  .mr-md-3 {
+    margin-right: 1rem !important; }
+  .ml-md-3 {
+    margin-left: 1rem !important; } }
+
 .text-center {
   text-align: center !important; }
+
+.text-uppercase {
+  text-transform: uppercase !important; }
 
 .text-white {
   color: #fff !important; }

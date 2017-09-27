@@ -1,54 +1,25 @@
 .what-i-do {
-  background-color: $bg-tan;
+  background-color: $tan;
   padding: 9em 4em 13em 4em;
-  //height: 50em;
 }
-
-.whatido-img {
-  width: 100%;
-}
-
+// PROGRESS BAR
 .progress.skills {
   height: 2em;
   border-radius: .80em;
 }
 
-
-.what-i-do--pad {
+.what-i-do--border {
   padding: 3em 4em;
-  border: solid 1.5px $header;
-}
-
-.col-12.what-i-do--pad.mx-auto{
-  //height: 25em;
-  @media only screen and (min-width: 300px) {
-    padding: 3em 1.5em;
-    margin-bottom: 1em;
-  }
-  @media only screen and (min-width: 600px) {
-    padding: 3em 2em;
-  }
+  border: solid 1.4px $blue-dark;
 }
 
 .progress-bar {
   background-color: $blue-accent;
 }
 
- // MODAL
-
-.modal-header {
-  padding: 1.4em 1.5em 0 .4em;
-  border: none;
-}
-
-.modal-body.project-padding {
-  padding: 0 2em 1em 2.5em;
-}
-
-//figure.snip0015.project {
-//  position: initial;
-//}
-
-.modal-body img {
-  width: 100%;
+// PARALAX PHOTO OF ME AFTER WHAT I DO
+.working {
+  @extend .parallax;
+  height: 15em;
+  background: linear-gradient($main-green--1, $main-green--4), url(../images/design.jpg) center top;
 }

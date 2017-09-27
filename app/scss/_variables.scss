@@ -1,15 +1,24 @@
 // COLOR
-//$main-green: #1abc9c;
 $main-green: #1bc39f;
 $white: #ffffff;
 $light-grey: #636363;
 $dark-grey: #696969;
-$bg-tan: #fdf8f7;
+$tan: #fdf8f7;
 $blue-accent: #05a0ab;
-$header: #446467;
+$blue-dark: #446467;
+$black: #000000;
 
 // TYPE
-
 $r-thin: 'Roboto-Thin';
-$r-medium: 'Roboto-Regular';
-$r-thick: 'Roboto-Medium';
+$r-light: 'Roboto-Light';
+$r-regular: 'Roboto-Regular';
+$r-medium: 'Roboto-Medium';
+
+// GREEN LINEAR GRADIENTS
+$main-green--1 : rgba(27, 195, 159, .1);
+$main-green--2: rgba(27, 195, 159, .2);
+$main-green--3 : rgba(27, 195, 159, .3);
+$main-green--4 : rgba(27, 195, 159, .4);
+$main-green--5: rgba(27, 195, 159, .5);
+$main-green--6: rgba(27, 195, 159, .6);
+$main-green--7: rgba(27, 195, 159, .7);

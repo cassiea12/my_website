@@ -22,7 +22,7 @@ onReady(function () {
     show('loading', false);
 });
 
-// ANIMATION ELEMENTS
+// ANIMATION ELEMENTS FADE IN UP
 var $animation_elements = $('.animation-element');
 var $window = $(window);
 $window.on('scroll', check_if_in_view);
@@ -50,7 +50,7 @@ function check_if_in_view() {
     });
 }
 
-// ON SCROLL CHANGE NAVBAR STYLE
+// ON SCROLL CHANGE NAVBAR STYLE - NOTE TO SELF- REFACTOR SO CSS IS NOT IN JS FILE
 $(document).ready(function () {
     var scroll_start = 0;
     var startchange = $('#home');
@@ -59,7 +59,7 @@ $(document).ready(function () {
         $(document).scroll(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
-                $(".navbar-light").css('background-color', 'rgba(255,255,255,1)');
+                $(".navbar-light").css('background-color', 'rgba(255, 255, 255, 1)');
                 $(".navbar-light").css('border-bottom', 'solid 1px #446467');
                 $(".navbar-light .navbar-nav a").css('color', '#446467');
                 $(".navbar-collapse").css('background-color', 'transparent');
@@ -70,7 +70,6 @@ $(document).ready(function () {
                 $(".navbar-light .navbar-nav a").css('color', '#446467');
                 $('.navbar-collappse').css('background-color', 'rgba(255,255,255,1)');
                 $(".navbar-collapse .navbar-nav a").css('color', '#446467');
-
             }
         });
     }
@@ -84,7 +83,6 @@ $(document).ready(function () {
 });
 
 // SCROLLABLE NAVIGATION
-
 
 // Cache selectors
 var lastId,
@@ -133,18 +131,7 @@ $(window).scroll(function(){
 });
 
 
-
-
-
-
-
-
-
-
-
-
 // ABOUT ME TABS
-
 $(document).ready(function(){
 
     $('ul.tabs li').click(function(){
@@ -155,6 +142,8 @@ $(document).ready(function(){
 
         $(this).addClass('currentTab').removeClass('not-current');
         $("#"+tab_id).addClass('currentTab').removeClass('not-current');
-    })
+    });
 
 });
+
+

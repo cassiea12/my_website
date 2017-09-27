@@ -117,6 +117,12 @@ gulp.task('fonts', function() {
         .pipe(gulp.dest('dist/fonts'))
 });
 
+// Copying pdfs
+gulp.task('pdf', function() {
+    return gulp.src(['app/pdf/**/*'])
+        .pipe(gulp.dest('dist/pdf'))
+});
+
 // Cleaning
 gulp.task('clean', function() {
     return del.sync('dist').then(function(cb) {
@@ -136,7 +142,7 @@ gulp.task('build', function(callback) {
         'clean:dist',
         'js',
         'sass',
-        ['useref', 'images', 'fonts'],
+        ['useref', 'images', 'fonts', 'pdf'],
         callback
     )
 });

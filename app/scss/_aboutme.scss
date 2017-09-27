@@ -20,7 +20,6 @@
 ul.tabs{
   margin: 0;
   list-style: none;
-  font-size: 1.5em;
   @media only screen and (max-width: 500px) {
     padding: 0 0 1.5em 0;
     li {
@@ -40,6 +39,7 @@ ul.tabs{
     }
   }
 }
+// CURRENT TAB
 ul.tabs li.not-current{
   @extend .inline-block;
   background: none;
@@ -48,7 +48,7 @@ ul.tabs li.not-current{
   transition: .5s;
   padding: 0 .5em;
   &:hover {
-    background: rgba(27, 195, 159, .7);
+    background: $main-green--7;
     color: $white;
     @extend .inline-block;
     cursor: pointer;
@@ -61,7 +61,7 @@ ul.tabs li.currentTab {
   color: $main-green;
   padding: 0 .5em;
   &:hover {
-    background: rgba(27, 195, 159, .7);
+    background: $main-green--7;
     color: $white;
     @extend .inline-block;
     cursor: pointer;
@@ -83,15 +83,4 @@ ul.tabs li.currentTab {
 }
 .tab-content.currentTab{
   display: inherit;
-}
-a.social:link, a:visited {
-  @extend .inline-block;
-  color: $blue-accent;
-  transition: all .2s ease-in-out;
-}
-a.social:hover {
-  text-decoration: none;
-  color: $main-green;
-  transition: all .2s ease-in-out;
-  transform: scale(1.5);
 }

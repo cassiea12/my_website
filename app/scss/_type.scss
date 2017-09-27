@@ -1,15 +1,88 @@
-h1 {
-  font-family: $r-medium;
-  color: $header;
+body {
+  font-family: $r-regular;
 }
 
-li{
+// GOOGLE FONTS DOWNLOAD
+@font-face {
+  font-family: 'Roboto-Thin';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto-Thin'), url(../fonts/Roboto-Thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto-Light'), url(../fonts/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto-Regular'), url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto-Medium'), url(../fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+.social span{
+  font-size: 1.2em;
+  font-family: $r-light;
+  display: inline;
+}
+
+// HEADER
+.title-main {
+  color:$white;
+  font-family: $r-thin, sans-serif;
+}
+.title-sub {
+  color: $main-green;
+  font-size: 1em;
+  font-family: $r-medium, sans-serif;
+  letter-spacing: .2em;
+}
+
+// NORMAL NAV LINK
+.navbar-light .navbar-nav .nav-link {
+  font-family: $r-regular, sans-serif;
+}
+.navbar-light .nav-item.not-currentLink a{
+  font-family: $r-regular, sans-serif;
+}
+
+// ABOUT ME
+ul.tabs {
+  font-size: 1.5em;
+}
+
+// MY WORK
+figure h3 {
+  font-family: $r-medium;
+  color: $main-green;
+  font-size:1.2em;
+  word-spacing: -0.15em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+figure h2 {
   font-family: $r-thin;
+  font-size:2em;
+  font-weight: 300;
+  text-transform: uppercase;
 }
+//
 
-p {
-  color: $light-grey;
-  font-family: $r-medium;
+h1 {
+  font-family: $r-regular;
+  color: $blue-dark;
 }
 
 h2 {
@@ -18,19 +91,41 @@ h2 {
   color: $dark-grey;
 }
 
-.text-sm--green {
+p {
+  color: $light-grey;
+  font-family: $r-regular;
+}
+
+li{
+  font-family: $r-thin;
+}
+
+.modal-caption{
+  color: $blue-dark;
+  text-decoration: underline;
+}
+
+.text-blue {
+  color: $blue-accent;
+}
+
+.text-green {
   color: $main-green;
+}
+
+.text-sm--green {
+  @extend .text-green;
   font-size: .8em;
 }
 
 .footer-text {
   font-size:.8em;
-  color: $main-green;
-  font-family: $r-medium;
+  color: $white;
+  font-family: $r-regular;
   margin-top: 0;
   margin-bottom: 0;
+  display: inline;
 }
-
 
 .title-underline {
   border-top: 3px solid $main-green;
@@ -43,10 +138,11 @@ a:link {
 }
 
 a:hover {
-  //text-decoration: none;
   color: $main-green;
 }
 
-.text-green {
-  color: $main-green;
+.modal-body h2 {
+  color: $blue-accent;
+  font-size: 1.5em;
+  font-family: $r-light;
 }

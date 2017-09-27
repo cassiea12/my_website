@@ -3,21 +3,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Custom Front-end Boilerplate</title>
-    <!--build:css css/bootstrap.css -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!--endbuild-->
-    <!--build:css css/custom.css -->
-    <link rel="stylesheet" href="css/styles.css">
-    <!--endbuild-->
+    <meta name="description" content="Cassandra Amantite is a Front-end Web Developer and Web Designer based in California, USA.
+View her portfolio and learn more about her.">
+    <meta name="keywords"
+          content="Front-end, Web Application, Developer, Web Designer, UI, UX, portfolio, Cassandra Amantite ">
+    <title>Front-end Developer - Web Designer | Cassandra Amantite</title>
+
+<!-- tab icon -->
+<link rel="shortcut icon" href="images/logo.png"/>
+<!--build:css css/bootstrap.css -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<!--endbuild-->
+<!--build:css css/custom.css -->
+<link rel="stylesheet" href="css/styles.css">
+<!--endbuild-->
 </head>
 <body>
-<div id="loading">
-
-</div>
+<div id="loading"></div>
 <!-- NAV -->
 <header class="bg-header" id="home">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="myNavbar">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-top" id="myNavbar">
         <a class="navbar-brand" href="#home"><img src="images/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,26 +49,23 @@
         </div>
     </nav>
     <div class="col-12 my-auto text-center">
-        <h1 class="animation-element fadeInUp">Cassandra Amantite</h1>
+        <h1 class="animation-element fadeInUp title-main text-uppercase">Cassandra Amantite</h1>
         <br/>
-        <h3 class="animation-element fadeInUp">Front-end Developer & Designer</h3>
+        <h2 class="animation-element fadeInUp title-sub text-uppercase">Front-end Developer & Designer</h2>
     </div>
 </header>
 <!-- ABOUT ME -->
 <section class="container-fluid about-me" id="about">
     <div class="row">
-        <div class="col-12 animation-element fadeInUp  mb-6">
-            <h1 class="text-center">About Me</h1>
-            <div class="title-underline">
-
-            </div>
+        <div class="col-12 mb-6">
+            <h1 class="text-center animation-element fadeInUp">About Me</h1>
+            <div class="title-underline"></div>
         </div>
     </div>
     <div class="row">
         <div class="col-sm-12 col-md-8 animation-element fadeInUp">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12">
-
                     <ul class="tabs">
                         <li class="tab-link currentTab mb-2" data-tab="tab-1">Bio</li>
                         <li class="tab-link mb-2 not-current" data-tab="tab-2">Passions</li>
@@ -83,20 +85,24 @@
                         </p>
                     </article>
                     <article id="tab-2" class="tab-content col-12 tab-content">
-                        <p>On my free time, you can find me hiking in the mountains, kayaking in the Ocean, or horseback
+                        <p>On my free time, you can find me hiking in the mountains, kayaking in the ocean, or horseback
                             trail riding.
-                            <br/><br/>I have traveled to Nicaragua and El Salvador over many summer with a non-profit to
+                            <br/><br/>I have traveled to Nicaragua and El Salvador over many summers with a non-profit to
                             build schools
-                            and teach english to the impoverished communities. I later traveled alone to Spain and
+                            and teach english in the impoverished communities. I have also traveled alone to Spain and
                             Italy. Through my
-                            solo travels I gained a boost of independence, confidence, compassion, and gratitude that has become who I am
+                            solo travels I gained a boost of independence, confidence, compassion, and gratitude that
+                            has become who I am
                             today.
-                           </p>
+                        </p>
                     </article>
                     <article id="tab-3" class="tab-content col-12 tab-content">
-                        <p class="pb-4">I have a home base in Los Angeles and the North Bay. I'm always interested in meeting new people with similar interests,
-                            as well as business or collaboration opportunities. If you are interested in working with me, want to grab a coffee,
-                            or just have a chat, <a href="mailto:cassandra.amantite@gmail.com">send me an email.</a><span class="sr-only">cassandra.amantite@gmail.com</span></p>
+                        <p class="pb-4">I have a home base in Los Angeles and the North Bay. I'm always interested in
+                            meeting new people with similar interests,
+                            as well as business or collaboration opportunities. If you are interested in working with
+                            me, want to grab a coffee,
+                            or just have a chat, <a href="mailto:cassandra.amantite@gmail.com">send me an
+                                email.</a><span class="sr-only">cassandra.amantite@gmail.com</span></p>
                         <p class="float-left pr-4"><a href="https://www.linkedin.com/in/cassandra-amantite/"
                                                       target="_blank" class="social"><i
                                 class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a><span class="sr-only">linkedIn</span>
@@ -108,7 +114,8 @@
                         <p class="float-left pr-4"><a href="mailto:cassandra.amantite@gmail.com" class="social"><i
                                 class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a><span
                                 class="sr-only">Email</span></p>
-                        <p class="float-left pr-4 pb-5"><a href="#" target="_blank" class="social"><i
+                        <p class="float-left pr-4 pb-5"><a href="pdf/Amantite_Cassandra_resume.pdf" target="_blank"
+                                                           class="social"><i
                                 class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></a><span
                                 class="sr-only">Resume</span></p>
                     </article>
@@ -123,138 +130,95 @@
 <!-- WHAT I DO -->
 <section class="container-fluid what-i-do" id="services">
     <div class="row" style="position: relative;">
-        <div class="col-12  animation-element fadeInUp mb-6">
-            <h1 class="text-center">What I Do</h1>
-            <div class="title-underline">
-
-            </div>
+        <div class="col-12  mb-6">
+            <h1 class="text-center animation-element fadeInUp">What I Do</h1>
+            <div class="title-underline animation-element fadeInUp"></div>
         </div>
     </div>
     <div class="row">
         <!--DEV-->
-        <article class="col-sm-6">
-            <div class="row mx-auto">
-                <div class="col-12 what-i-do--pad mx-auto animation-element fadeInUp">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="text-center">Front-end Development</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 pt-4">
-                            <p class="text-center">
-                                Often working with web designers, back-end, and front-end developers, my goal is to create web applications that are pixel-perfect,
-                                optimised, responsive, cross-browser compatible, and accessible for you, your customers, and search engines. </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 pt-4">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="progress skills mb-2">
-                                        <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar"
-                                             style="width: 94%;" aria-valuenow="25" aria-valuemin="0"
-                                             aria-valuemax="90">Skills / Tools
-                                        </div>
-                                    </div>
-                                    <p class="text-sm--green text-center"> Html, CSS, Sass, Bootstrap, javaScript,
-                                        jQuery, Laravel Blade, Gulp, Git, GitHub</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <article class="col p-5 mr-md-3 what-i-do--border mb-4 animation-element fadeInUp">
+            <h2 class="text-center pb-4">Front-end Development</h2>
+            <p class="text-center pb-4" style="height: auto;">
+                My goal is to code web applications that are pixel-perfect,
+                optimised, responsive, cross-browser compatible, and accessible for you, your customers, and search
+                engines. </p>
+            <div class="progress skills mb-2">
+                <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar"
+                     style="width: 94%;" aria-valuenow="25" aria-valuemin="0"
+                     aria-valuemax="90">Skills / Tools
                 </div>
             </div>
+            <p class="text-sm--green text-center"> HTML, CSS, Sass, Bootstrap, javaScript,
+                jQuery, Laravel Blade, Gulp, Git, GitHub</p>
         </article>
-        <article class="col-sm-6">
-            <div class="row mx-auto">
-                <div class="col-12 what-i-do--pad mx-auto  animation-element fadeInUp">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="text-center">UI UX Design</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 pt-4">
-                            <p class="text-center">
-                                I create simple, clean, intuitive, and modern user interfaces and workflows for mobile first, responsive
-                                web applications. My design process moves from mood boards and style tiles to
-                                wireframes and mockups, and finally to interactive prototypes.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 pt-4">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="progress skills mb-2">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                             style="width: 94%;" aria-valuenow="25" aria-valuemin="0"
-                                             aria-valuemax="90">Skills / Tools
-                                        </div>
-                                    </div>
-                                    <p class="text-sm--green text-center"> Mood Boaards, Style Tiles, Wireframes,
-                                        Mockups, Adobe XD, Photoshop, InVision</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <article class="col ml-md-3  p-5 what-i-do--border mb-4 animation-element fadeInUp">
+            <h2 class="text-center pb-4">Web Design</h2>
+            <p class="text-center pb-4">
+                My goal is to design simple, clean, intuitive, interactive, and modern user interfaces and workflows for
+                responsive
+                web applications that leave a lasting impression on users.</p>
+            <div class="progress skills mb-2">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                     style="width: 94%;" aria-valuenow="25" aria-valuemin="0"
+                     aria-valuemax="90">Skills / Tools
                 </div>
             </div>
+            <p class="text-sm--green text-center"> Moodboards, Style Tiles, Wireframes, Prototypes, Adobe Photoshop &
+                XD, InVision</p>
         </article>
     </div>
 </section>
 <!--QUOTE -->
 <article class="container-fluid">
-    <div class="row parallax working">
-        <div class="col-12">
-        </div>
-    </div>
+    <div class="row parallax working"></div>
 </article>
 <!-- MY WORK -->
 <section class="container-fluid portfolio" id="portfolio">
-    <div class="row">
-        <div class="col-12 animation-element fadeInUp mb-6">
-            <h1 class="text-center">My Work</h1>
-            <div class="title-underline">
-
-            </div>
+    <div class="row mb-5">
+        <div class="col-12 mb-5">
+            <h1 class="text-center animation-element fadeInUp">My Work</h1>
+            <div class="title-underline animation-element fadeInUp"></div>
         </div>
+        <div class="col-12 text-center animation-element fadeInUp">
+            <a href="https://github.com/cassiea12/my_website" target="_blank" class="social">
+                <i class="fa fa-github fa-lg" aria-hidden="true"></i><span> View this website on my GitHub</span>
+            </a>
+        </div>
+        <div id="contact"></div>
     </div>
     <article class="row  animation-element fadeInUp">
-        <div class="col-sm-4">
-            <figure class="snip0015 project" data-toggle="modal" data-target="#exampleModalLong">
-                <img src="images/documentary.jpg" alt="sample38"/>
+        <div class="col-12 col-sm-4 mb-5">
+            <figure class="float-left text-center" data-toggle="modal" data-target="#documentary">
+                <img src="images/documentary.jpg" alt="documentary website design"/>
                 <figcaption>
-                    <h2 class="text-white">Documentary Website <span>Design</span></h2>
-                    <a href="#"></a>
+                    <h2 class="text-white">Mile & A Half</h2>
+                    <h3>Design</h3>
                 </figcaption>
             </figure>
         </div>
-        <div class="col-sm-4">
-            <figure class="snip0015 project">
-                <img src="images/documentary.jpg" alt="sample38"/>
-                <figcaption class="my-auto">
-                    <h2 class="text-white">Documentary Website <span>Design</span></h2>
-                    <a href="#"></a>
+        <div class="col-12 col-sm-4 mb-5">
+            <figure class="float-left text-center" data-toggle="modal" data-target="#etd">
+                <img src="images/etd/etd.png" alt="ETD design and code"/>
+                <figcaption>
+                    <h2 class="text-white">CSUN ETD</h2>
+                    <h3>Design / Code</h3>
                 </figcaption>
             </figure>
         </div>
-        <div id="contact">
-
-        </div>
-        <div class="col-sm-4">
-            <figure class="snip0015 project">
-                <img src="images/documentary.jpg" alt="sample38"/>
+        <div class="col-12 col-sm-4 mb-5">
+            <figure class="float-left text-center" data-toggle="modal" data-target="#portfolioSite">
+                <img src="images/portfolio/portfolio.png" alt="portfolio website design and code"/>
                 <figcaption>
-                    <h2 class="text-white">Documentary Website <span>Design</span></h2>
-                    <a href="#"></a>
+                    <h2 class="text-white">Portfolio Site</h2>
+                    <h3>Design / Code</h3>
                 </figcaption>
             </figure>
         </div>
     </article>
 </section>
-<!-- PORTFOLIO MODALS -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<!-- DOC MODALS -->
+<div class="modal fade" id="documentary" tabindex="-1" role="dialog" aria-labelledby="documentary" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -263,11 +227,217 @@
                 </button>
             </div>
             <div class="modal-body project-padding">
-                <h1 class="modal-title pb-1" id="exampleModalLongTitle">Mile, Mile & A Half</h1>
-                <h2 class="pb-1">Web Design</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur consequatur est hic laudantium nisi nostrum officiis, perferendis possimus quidem tempora vero voluptates. Amet distinctio enim eum nesciunt quos. Consequatur.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nulla possimus suscipit ullam! A at beatae distinctio eaque esse eveniet, iusto odio perferendis quae reprehenderit sed tempore vitae! Earum, omnis.</p>
-                <img src="images/headshot.jpg">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="modal-title pb-1">Mile, Mile & A Half</h1>
+                        <h2 class="pb-1">Web Design</h2>
+                        <p>I designed a website for the documentary Mile, Mile and a Half. I am a huge fan of
+                            the film,
+                            and thought it deserved a beautiful website to go with it. I began by creating a few
+                            moodboards.
+                            Moodboards help
+                            me and the client understand the overall look and feel of the website without getting bogged
+                            down with the details of the
+                            website. After a mood board direction was chosen, I created a few style tiles which provide
+                            a higher level
+                            of detail such as what some main elements may look like. After a style tile was approved, I
+                            created the site map
+                            to show the pages and the linked relationships among them. Next I created wireframes to map
+                            out individual pages of the site.
+                            Last, I skinned the wireframe, creating the finished website design.
+                        </p>
+                        <p class="text-blue">Technologies / Tools : Adobe Photoshop
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-4 mb-6">
+                    <div class="col-sm-6">
+                        <h5 class="text-center mb-4 modal-caption">Moodboard</h5>
+                        <img src="images/documentary/moodboard.jpg" alt="moodboard">
+                    </div>
+                    <div class="col-sm-6">
+                        <h5 class="text-center mb-4 modal-caption">Style Tile</h5>
+                        <img src="images/documentary/tile.jpg" alt="style tile">
+                    </div>
+                </div>
+                <div class="row mb-6">
+                    <div class="col">
+                        <div class="row mb-6">
+                            <div class="col-12">
+                                <h5 class="text-center mb-4 modal-caption">Sitemap</h5>
+                                <img src="images/documentary/sitemap.png" alt="sitemap">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h5 class="text-center mb-4 modal-caption">Wireframe</h5>
+                                <img src="images/documentary/wireframe.png" alt="wireframe">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h5 class="text-center mb-4 mt-4 modal-caption">Final Website Design</h5>
+                        <img src="images/documentary/home.jpg" alt="home page" class="mb-5">
+                        <img src="images/documentary/film.jpg" alt="about the film" class="mb-5">
+                        <img src="images/documentary/team.jpg" alt="the team" class="mb-5">
+                        <img src="images/documentary/fans.jpg" alt="the fans" class="mb-5">
+                        <img src="images/documentary/trail.jpg" alt="the trail" class="mb-5">
+                        <img src="images/documentary/muir.jpg" alt="the muir project" class="mb-5">
+                        <img src="images/documentary/gallery.jpg" alt="gallery" class="mb-5">
+                        <img src="images/documentary/videos.jpg" alt="videos page" class="mb-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ETD MODAL -->
+<!--TO DO: CHECK ARIA LABEL BY below-->
+<div class="modal fade" id="etd" tabindex="-1" role="dialog" aria-labelledby="csun-etd" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-times text-green fa-lg" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="modal-body project-padding">
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <h1 class="modal-title pb-1">CSUN's Electronic Thesis and Dissertation Web Application</h1>
+                        <h2 class="pb-1">Web Design & Code</h2>
+                        <p> ETD is a web application Graduate Students, Faculty Members, Graduate Coordinators, and RGS
+                            Evaluators at California State University Northridge use for the process of theses
+                            completions.
+
+                            The old ETD website had a very
+                            outdated user interface that was not up to date with CSUN's branding. </p>
+
+                        <p>I worked in close collaboration with front-end, back-end, project and product management as
+                            well as participating in
+                            weekly client demos and usability tests to complete this web application from start to
+                            finish.
+
+                            My job was to strip the old design from each workflow and apply CSUN’s UI kit, Metaphor, to
+                            ensure the web application maintained
+                            consistency with CSUN's branding and identity standards.
+                        </p>
+                        <p>I was also in charge of solving the student's user interface and user experience problems.
+                            The
+                            students are the largest user
+                            base on the web application and there were constant phone calls and issues arising that
+                            could easily be fixed with enhanced user experience and interface design.
+                            The students were not clear on whether each phase was officially complete or not, who they
+                            were waiting
+                            on to approve different forms, and they were frustrated in only having the ability to see
+                            the next direct step to take in each phase, and
+                            not the entirety of all steps in order to plan ahead. It was also requested that members of
+                            a student's thesis be able to leave notes
+                            for them to see.</p>
+
+                        <p class="text-blue">Technologies / Tools : Adobe XD, HTML5, CSS3, javaScript, jQuery, Gulp, Sass,
+                            Larval Blade, and CSUN’s UI kit and CSS framework - “Metaphor.”</p>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col">
+                        <h5 class="text-center pb-3 modal-caption">Student Dashboard Before</h5>
+                        <img src="images/etd/old_dashboard.png" alt="old student dashboard / workflow">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            The new progress tracking bar allows the students to easily see what phase they are
+                            currently in and how close
+                            they are to completion. The content underneath is separated into two sections: the steps
+                            to complete each phase with
+                            the visual que of a checkbox and icons that change based on each step's status, the status
+                            of
+                            the people needed to approve the work of each phase, and the new notes section. Upon
+                            usability testing, the master student's
+                            feedback confirmed a successful redesign.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col">
+                        <h5 class="text-center pb-3 modal-caption">Student Dashboard After</h5>
+                        <img src="images/etd/planning.png" class="modal-img--border mb-5" alt="new student dashboard / workflow">
+                        <img src="images/etd/draft.png" class="modal-img--border mb-5" alt="new student dashboard / workflow">
+                        <img src="images/etd/final.png" class="modal-img--border mb-5" alt="new student dashboard / workflow">
+                        <img src="images/etd/finished.png" class="modal-img--border mb-5" alt="new student dashboard / workflow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- PORTFOLIO SITE MODAL -->
+<div class="modal fade" id="portfolioSite" tabindex="-1" role="dialog" aria-labelledby="portfolioSite"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-times text-green fa-lg" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="modal-body project-padding">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="modal-title pb-1">Portfolio Site</h1>
+                        <h2 class="pb-1">Web Design & Code</h2>
+                        <p>I designed and coded this single page portfolio site for myself about a year ago using
+                            Bootstrap as the framework. I pulled inspiration
+                            from sites like Designspiration and Pintrest. From there, I created the wireframes for
+                            mobile and desktop and lastly, skinned the
+                            wireframes to create a bright LA - themed portfolio site.
+                        </p>
+                        <p class="text-blue">Technologies / Tools : Adobe XD, HTML, CSS, javaScript, jQuery
+                        </p>
+                    </div>
+                </div>
+                <div class="row mb-6 mt-4">
+                    <div class="col-6">
+                        <h5 class="text-center pb-3 modal-caption"> Desktop Wireframe</h5>
+                        <img src="images/portfolio/desktop_wireframe.png" alt="desktop wireframe">
+                    </div>
+                    <div class="col-6">
+                        <h5 class="text-center pb-3 modal-caption">Desktop Mockup</h5>
+                        <img src="images/portfolio/1.png" alt="single page portfolio site">
+                        <img src="images/portfolio/2.png" alt="single page portfolio site">
+                        <img src="images/portfolio/3.png" alt="single page portfolio site">
+                        <img src="images/portfolio/4.png" alt="single page portfolio site">
+                        <img src="images/portfolio/5.png" alt="single page portfolio site">
+                        <img src="images/portfolio/6.png" alt="single page portfolio site">
+                        <img src="images/portfolio/7.png" alt="single page portfolio site">
+                        <img src="images/portfolio/8.png" alt="single page portfolio site">
+                    </div>
+                </div>
+                <div class="row pt-6">
+                    <div class="col-7">
+                        <h5 class="text-center pb-3 modal-caption">Mobile Wireframe</h5>
+                        <img src="images/portfolio/mobile_wireframe.png" alt="mobile wireframe">
+                    </div>
+                    <div class="col-5">
+                        <h5 class="text-center pb-3 modal-caption">Mobile Mockup</h5>
+                        <img src="images/portfolio/m1.png" alt="single page portfolio site in mobile">
+                        <img src="images/portfolio/m2.png" alt="single page portfolio site in mobile">
+                        <img src="images/portfolio/m3.png" alt="single page portfolio site in mobile">
+                        <img src="images/portfolio/m4.png" alt="single page portfolio site in mobile">
+                        <img src="images/portfolio/m5.png" alt="single page portfolio site in mobile">
+                        <img src="images/portfolio/m6.png" alt="single page portfolio site in mobile">
+                        <img src="images/portfolio/m7.png" alt="single page portfolio site in mobile">
+                        <img src="images/portfolio/m8.png" alt="single page portfolio site in mobile">
+                        <img src="images/portfolio/m9.png" alt="single page portfolio site in mobile">
+                        <img src="images/portfolio/m10.png" alt="single page portfolio site in mobile">
+                        <img src="images/portfolio/m11.png" alt="single page portfolio site in mobile">
+                        <img src="images/portfolio/m12.png" alt="single page portfolio site in mobile">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -275,40 +445,42 @@
 <!-- Contact Me -->
 <footer class="container-fluid">
     <div class="row parallax contactme">
-        <div class="col-12">
+        <div class="col">
             <div class="row pt-4 pl-5 pb-4">
-                    <div class="col-sm-12 col-md-5 col-lg-3">
-                        <h1 class="text-white text-center">Contact Me</h1>
-                        <div class="title-underline">
-
-                        </div>
-                    </div>
+                <div class="col-sm-12 col-md-5 col-lg-3">
+                    <h1 class="text-white text-center animation-element fadeInUp">Contact Me</h1>
+                    <div class="title-underline"></div>
+                </div>
             </div>
             <div class="row mx-auto">
                 <div class="col-sm-4 pt-2">
-                    <p class="text-white">If you are interested in working with me, want to grab a coffee,
-                        or just have a chat, <a href="mailto:cassandra.amantite@gmail.com">send me an email</a><span class="sr-only">cassandra.amantite@gmail.com</span></p>
+                    <p class="text-white animation-element fadeInUp">If you are interested in working with me, want to grab a coffee,
+                        or just have a chat, <a href="mailto:cassandra.amantite@gmail.com">send me an email</a><span
+                                class="sr-only">cassandra.amantite@gmail.com</span></p>
                 </div>
-                <div class="col-sm-8">
+                <div class="col animation-element fadeInUp">
                     <p class="float-right pr-4"><a href="https://www.linkedin.com/in/cassandra-amantite/"
-                                                   target="_blank" class="social"><i
+                                                   target="_blank" class="social-footer"><i
                             class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a><span class="sr-only">linkedIn</span>
                     </p>
                     <p class="float-right pr-4"><a href="https://github.com/cassiea12" target="_blank"
-                                                   class="social"><i class="fa fa-github fa-3x"
-                                                                     aria-hidden="true"></i></a><span
+                                                   class="social-footer"><i class="fa fa-github fa-3x"
+                                                                            aria-hidden="true"></i></a><span
                             class="sr-only">GitHub</span></p>
-                    <p class="float-right pr-4"><a href="mailto:cassandra.amantite@gmail.com" class="social"><i
+                    <p class="float-right pr-4"><a href="mailto:cassandra.amantite@gmail.com" class="social-footer"><i
                             class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a><span
                             class="sr-only">Email</span></p>
-                    <p class="float-right pr-4 pb-5"><a href="#" target="_blank" class="social"><i
+                    <p class="float-right pr-4 pb-5"><a href="pdf/Amantite_Cassandra_resume.pdf" target="_blank" class="social-footer"><i
                             class="fa fa-file-text-o fa-3x" aria-hidden="true"></i></a><span
                             class="sr-only">Resume</span></p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12">
-                    <p class="footer-text text-center"> Hand Coded and Designed by Cassandra Amantite</p>
+                <div class="col-sm-12 text-center pb-3">
+                    <a href="https://github.com/cassiea12/my_website" target="_blank" class="social-footer">
+                        <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                        <p class="footer-text"> Designed and Coded by Cassandra Amantite </p>
+                    </a>
                 </div>
             </div>
         </div>

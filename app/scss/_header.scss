@@ -2,16 +2,13 @@ html, body {
   height: 100%;
 }
 .bg-header {
-  background: linear-gradient(rgba(27, 195, 159, .2), rgba(27, 195, 159, .2)), url(../images/clean.jpg) no-repeat center center;
+  background: linear-gradient($main-green--2, $main-green--2), url(../images/clean.jpg) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   min-width: 100%;
   min-height: 100%;
   margin-top: 0;
   & h1 {
-    color:$white;
-    font-family: $r-thin, sans-serif;
-    text-transform: uppercase;
     @media only screen and (min-width: 300px) {
       font-size: 1.3em;
       letter-spacing: .8em;
@@ -36,42 +33,22 @@ html, body {
       padding-top: 20%;
     }
   }
-  & h3 {
-    color: $main-green;
-    font-size: 1em;
-    font-family: $r-thick, sans-serif;
-    letter-spacing: .2em;
-    text-transform: uppercase;
-  }
 }
-// NAVBAR
-.navbar-light .navbar-toggle {
-  border-color: $white;
-  color: $white;
-  padding-top: 0;
-  padding-bottom: 0;
+// NAVBAR HAMBURGER
+.navbar-light .navbar-toggler {
+  border: $blue-accent solid 2px;
 }
 
-// CURRENT NAV
+// CURRENTLINK NAV LINK UNDERLINE
 .navbar-light .nav-item.currentLink a:after {
   width: 100%;
-  background-color: #1abc9c;
+  background-color: $main-green;
 }
-
-.navbar-light .nav-item.currentLink a{
+.navbar-light .nav-item.currentLink a {
   transition: width .5s ease, color .5s ease;
 }
 
-// NORMAL NAV
-.navbar-light .navbar-nav .nav-link {
-  font-family: $r-medium, sans-serif;
-}
-
-.navbar-light .nav-item.not-currentLink a{
-  font-family: $r-medium, sans-serif;
-}
-
-// NAV HOVER
+// NAV LINK HOVER UNDERLINE EFFECT
 nav a:after {
   content: '';
   display: block;
@@ -80,7 +57,6 @@ nav a:after {
   transition: width .5s ease, background-color .5s ease;
   width: 0;
 }
-
 .navbar-light .navbar-nav .nav-link:hover {
   transition: width .5s ease, color .5s ease;
   &:after {
@@ -88,10 +64,11 @@ nav a:after {
     width: 100%;
   }
 }
-// NAVBAR STYLE ON SCROLL
+
+// NAV BAR STYLE ON SCROLL
 nav#myNavbar, nav#myNavbar a {
   transition: .5s;
-    transition-delay: .4s;
+  transition-delay: .4s;
 }
 
 
