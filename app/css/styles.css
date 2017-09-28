@@ -306,6 +306,10 @@ ul.tabs li.currentTab {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.3))), url(../images/coffee4.jpg) center center;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../images/coffee4.jpg) center center; } }
 
+@media only screen and (min-width: 500px) {
+  .social-space {
+    margin-right: 1em; } }
+
 .parallax, .working, .contactme {
   position: relative;
   background-repeat: no-repeat;
