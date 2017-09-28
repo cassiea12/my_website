@@ -1,7 +1,7 @@
 .contactme {
   @extend .parallax;
   @media only screen and (min-width: 501px) {
-    background: linear-gradient($main-green--5, $main-green--2), url(../images/coffee4.jpg) center center;
+    background: linear-gradient(rgba(11,101,81,.5), $main-green--2), url(../images/coffee4.jpg) center center;
   }
   @media only screen and (max-width: 500px) {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.3)), url(../images/coffee4.jpg) center center;
@@ -10,9 +10,6 @@
 
 .contactme .social-space {
   padding: 1em;
-  @media only screen and (min-width: 500px) {
-    margin-right: 1em;
-  }
 }
 
 .parallax {

@@ -42,6 +42,10 @@ body {
   color:$white;
   text-shadow: 1px 1px $lightest-grey;
   font-family: $r-thin, sans-serif;
+  @media only screen and (max-width: 500px) {
+    color: $blue-accent;
+    text-shadow: none;
+  }
 }
 .title-sub {
   color: $blue-dark;
