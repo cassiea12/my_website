@@ -1,7 +1,11 @@
 .what-i-do {
   background-color: $tan;
   padding: 9em 4em 13em 4em;
+  @media only screen and (max-width: 450px) {
+    padding: 9em 2em 6em 2em;
+  }
 }
+
 // PROGRESS BAR
 .progress.skills {
   height: 2em;
@@ -9,8 +13,8 @@
 }
 
 .what-i-do--border {
-  padding: 3em 4em;
   border: solid 1.4px $blue-dark;
+  padding: 3em 4em;
 }
 
 .progress-bar {
@@ -20,6 +24,6 @@
 // PARALAX PHOTO OF ME AFTER WHAT I DO
 .working {
   @extend .parallax;
-  height: 15em;
+  height: 25em;
   background: linear-gradient($main-green--1, $main-green--4), url(../images/design.jpg) center top;
 }

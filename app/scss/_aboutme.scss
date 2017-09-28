@@ -4,8 +4,8 @@
 // HEADSHOT
 .headshot {
   @media only screen and (max-width: 500px) {
-    padding: 0 0 0 3em;
-    width: 90%;
+    padding: 0 0 0 4em;
+    width: 80%;
   }
   @media only screen and (min-width: 600px) {
     padding-right: 3em;
@@ -21,9 +21,21 @@ ul.tabs{
   margin: 0;
   list-style: none;
   @media only screen and (max-width: 500px) {
-    padding: 0 0 1.5em 0;
+    padding: 0 0 1em 0;
     li {
-      margin-right: .1em;
+      font-size: 1.26em;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    padding: 0 0 1em 0;
+    li {
+      font-size: 1em;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    padding: 0 0 1em 0;
+    li {
+      font-size: .8em;
     }
   }
   @media only screen and (min-width: 600px) {

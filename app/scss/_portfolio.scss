@@ -1,6 +1,11 @@
 .portfolio {
-  padding: 7em 4em 15em 4em
+  padding: 12em 4em 15em 4em;
+  @media only screen and (max-width: 450px) {
+    padding-bottom: 4em;
+    padding-top: 7em;
+  }
 }
+
 figure {
   font-family: $r-thin;
   position: relative;

@@ -40,10 +40,11 @@ body {
 // HEADER
 .title-main {
   color:$white;
+  text-shadow: 1px 1px $lightest-grey;
   font-family: $r-thin, sans-serif;
 }
 .title-sub {
-  color: $main-green;
+  color: $blue-dark;
   font-size: 1em;
   font-family: $r-medium, sans-serif;
   letter-spacing: .2em;

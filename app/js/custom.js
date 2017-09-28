@@ -1,4 +1,4 @@
-//LOADING SCREEN
+// LOADING SCREEN
 function onReady(callback) {
     var intervalID = window.setInterval(checkReady, 1000);
     function checkReady() {
@@ -21,6 +21,7 @@ onReady(function () {
     show('contact', true);
     show('loading', false);
 });
+
 
 // ANIMATION ELEMENTS FADE IN UP
 var $animation_elements = $('.animation-element');
@@ -62,14 +63,10 @@ $(document).ready(function () {
                 $(".navbar-light").css('background-color', 'rgba(255, 255, 255, 1)');
                 $(".navbar-light").css('border-bottom', 'solid 1px #446467');
                 $(".navbar-light .navbar-nav a").css('color', '#446467');
-                $(".navbar-collapse").css('background-color', 'transparent');
-                $(".navbar-collapse .navbar-nav a").css('color', '#446467');
             } else {
-                $('.navbar-light').css('background-color', 'transparent');
+                $('.navbar-light').css('background-color', 'rgba(255, 255, 255, .3)');
                 $(".navbar-light").css('border-bottom', 'none');
                 $(".navbar-light .navbar-nav a").css('color', '#446467');
-                $('.navbar-collappse').css('background-color', 'rgba(255,255,255,1)');
-                $(".navbar-collapse .navbar-nav a").css('color', '#446467');
             }
         });
     }

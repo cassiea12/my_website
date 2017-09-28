@@ -8,7 +8,6 @@ View her portfolio and learn more about her.">
     <meta name="keywords"
           content="Front-end, Web Application, Developer, Web Designer, UI, UX, portfolio, Cassandra Amantite ">
     <title>Front-end Developer - Web Designer | Cassandra Amantite</title>
-
 <!-- tab icon -->
 <link rel="shortcut icon" href="images/logo.png"/>
 <!--build:css css/bootstrap.css -->
@@ -23,7 +22,7 @@ View her portfolio and learn more about her.">
 <!-- NAV -->
 <header class="bg-header" id="home">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-top" id="myNavbar">
-        <a class="navbar-brand" href="#home"><img src="images/logo.png"></a>
+        <!--<a class="navbar-brand" href="#home"><img src="images/logo.png"></a>-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -65,7 +64,7 @@ View her portfolio and learn more about her.">
     <div class="row">
         <div class="col-sm-12 col-md-8 animation-element fadeInUp">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12">
+                <div class="col">
                     <ul class="tabs">
                         <li class="tab-link currentTab mb-2" data-tab="tab-1">Bio</li>
                         <li class="tab-link mb-2 not-current" data-tab="tab-2">Passions</li>
@@ -103,21 +102,21 @@ View her portfolio and learn more about her.">
                             me, want to grab a coffee,
                             or just have a chat, <a href="mailto:cassandra.amantite@gmail.com">send me an
                                 email.</a><span class="sr-only">cassandra.amantite@gmail.com</span></p>
-                        <p class="float-left pr-4"><a href="https://www.linkedin.com/in/cassandra-amantite/"
-                                                      target="_blank" class="social"><i
-                                class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a><span class="sr-only">linkedIn</span>
-                        </p>
-                        <p class="float-left pr-4"><a href="https://github.com/cassiea12" target="_blank"
-                                                      class="social"><i class="fa fa-github fa-2x"
-                                                                        aria-hidden="true"></i></a><span
-                                class="sr-only">GitHub</span></p>
-                        <p class="float-left pr-4"><a href="mailto:cassandra.amantite@gmail.com" class="social"><i
-                                class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a><span
-                                class="sr-only">Email</span></p>
-                        <p class="float-left pr-4 pb-5"><a href="pdf/Amantite_Cassandra_resume.pdf" target="_blank"
-                                                           class="social"><i
-                                class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></a><span
-                                class="sr-only">Resume</span></p>
+                                <p class="float-left pr-4"><a href="https://www.linkedin.com/in/cassandra-amantite/"
+                                                              target="_blank" class="social"><i
+                                        class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a><span class="sr-only">linkedIn</span>
+                                </p>
+                                <p class="float-left pr-4"><a href="https://github.com/cassiea12" target="_blank"
+                                                              class="social"><i class="fa fa-github fa-2x"
+                                                                                aria-hidden="true"></i></a><span
+                                        class="sr-only">GitHub</span></p>
+                                <p class="float-left pr-4"><a href="mailto:cassandra.amantite@gmail.com" class="social"><i
+                                        class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a><span
+                                        class="sr-only">Email</span></p>
+                                <p class="float-left pr-4 pb-5"><a href="pdf/Amantite_Cassandra_resume.pdf" target="_blank"
+                                                                   class="social"><i
+                                        class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></a><span
+                                        class="sr-only">Resume</span></p>
                     </article>
                 </div>
             </div>
@@ -129,7 +128,7 @@ View her portfolio and learn more about her.">
 </section>
 <!-- WHAT I DO -->
 <section class="container-fluid what-i-do" id="services">
-    <div class="row" style="position: relative;">
+    <div class="row">
         <div class="col-12  mb-6">
             <h1 class="text-center animation-element fadeInUp">What I Do</h1>
             <div class="title-underline animation-element fadeInUp"></div>
@@ -139,7 +138,7 @@ View her portfolio and learn more about her.">
         <!--DEV-->
         <article class="col p-5 mr-md-3 what-i-do--border mb-4 animation-element fadeInUp">
             <h2 class="text-center pb-4">Front-end Development</h2>
-            <p class="text-center pb-4" style="height: auto;">
+            <p class="text-center pb-4">
                 My goal is to code web applications that are pixel-perfect,
                 optimised, responsive, cross-browser compatible, and accessible for you, your customers, and search
                 engines. </p>
@@ -152,6 +151,7 @@ View her portfolio and learn more about her.">
             <p class="text-sm--green text-center"> HTML, CSS, Sass, Bootstrap, javaScript,
                 jQuery, Laravel Blade, Gulp, Git, GitHub</p>
         </article>
+        <!--DESIGN-->
         <article class="col ml-md-3  p-5 what-i-do--border mb-4 animation-element fadeInUp">
             <h2 class="text-center pb-4">Web Design</h2>
             <p class="text-center pb-4">
@@ -186,12 +186,13 @@ View her portfolio and learn more about her.">
             </a>
         </div>
     </div>
+    <div id="contact"></div>
     <article class="row  animation-element fadeInUp">
         <div class="col-12 col-sm-4 mb-5">
             <figure class="float-left text-center" data-toggle="modal" data-target="#documentary">
                 <img src="images/documentary.jpg" alt="documentary website design"/>
                 <figcaption>
-                    <h2 class="text-white">Mile & A Half</h2>
+                    <h2 class="text-white">Mile, Mile & A Half</h2>
                     <h3>Design</h3>
                 </figcaption>
             </figure>
@@ -216,7 +217,6 @@ View her portfolio and learn more about her.">
         </div>
     </article>
 </section>
-<div id="contact"></div>
 <!-- DOC MODALS -->
 <div class="modal fade" id="documentary" tabindex="-1" role="dialog" aria-labelledby="documentary" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -459,18 +459,18 @@ View her portfolio and learn more about her.">
                                 class="sr-only">cassandra.amantite@gmail.com</span></p>
                 </div>
                 <div class="col animation-element fadeInUp">
-                    <p class="float-right pr-4"><a href="https://www.linkedin.com/in/cassandra-amantite/"
+                    <p class="float-right p-2 pr-md-4"><a href="https://www.linkedin.com/in/cassandra-amantite/"
                                                    target="_blank" class="social-footer"><i
                             class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a><span class="sr-only">linkedIn</span>
                     </p>
-                    <p class="float-right pr-4"><a href="https://github.com/cassiea12" target="_blank"
+                    <p class="float-right p-2 pr-md-4"><a href="https://github.com/cassiea12" target="_blank"
                                                    class="social-footer"><i class="fa fa-github fa-3x"
                                                                             aria-hidden="true"></i></a><span
                             class="sr-only">GitHub</span></p>
-                    <p class="float-right pr-4"><a href="mailto:cassandra.amantite@gmail.com" class="social-footer"><i
+                    <p class="float-right p-2 pr-md-4"><a href="mailto:cassandra.amantite@gmail.com" class="social-footer"><i
                             class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a><span
                             class="sr-only">Email</span></p>
-                    <p class="float-right pr-4 pb-5"><a href="pdf/Amantite_Cassandra_resume.pdf" target="_blank" class="social-footer"><i
+                    <p class="float-right p-2 pr-md-4 pb-5"><a href="pdf/Amantite_Cassandra_resume.pdf" target="_blank" class="social-footer"><i
                             class="fa fa-file-text-o fa-3x" aria-hidden="true"></i></a><span
                             class="sr-only">Resume</span></p>
                 </div>

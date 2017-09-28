@@ -25,7 +25,7 @@ html, body {
       font-size: 2.3em;
       letter-spacing: .4em;
       margin-left: .4em;
-      padding-top: 45%; } }
+      padding-top: 25%; } }
   @media only screen and (min-width: 1025px) {
     .bg-header h1 {
       font-size: 2.5em;
@@ -106,10 +106,11 @@ body {
 
 .title-main {
   color: #ffffff;
+  text-shadow: 1px 1px #c3c3c3;
   font-family: "Roboto-Thin", sans-serif; }
 
 .title-sub {
-  color: #1bc39f;
+  color: #446467;
   font-size: 1em;
   font-family: "Roboto-Medium", sans-serif;
   letter-spacing: .2em; }
@@ -192,8 +193,8 @@ a:hover {
 
 @media only screen and (max-width: 500px) {
   .headshot {
-    padding: 0 0 0 3em;
-    width: 90%; } }
+    padding: 0 0 0 4em;
+    width: 80%; } }
 
 @media only screen and (min-width: 600px) {
   .headshot {
@@ -210,9 +211,19 @@ ul.tabs {
   list-style: none; }
   @media only screen and (max-width: 500px) {
     ul.tabs {
-      padding: 0 0 1.5em 0; }
+      padding: 0 0 1em 0; }
       ul.tabs li {
-        margin-right: .1em; } }
+        font-size: 1.26em; } }
+  @media only screen and (max-width: 450px) {
+    ul.tabs {
+      padding: 0 0 1em 0; }
+      ul.tabs li {
+        font-size: 1em; } }
+  @media only screen and (max-width: 400px) {
+    ul.tabs {
+      padding: 0 0 1em 0; }
+      ul.tabs li {
+        font-size: .8em; } }
   @media only screen and (min-width: 600px) {
     ul.tabs {
       padding: 0 0 1em 2em; }
@@ -265,26 +276,35 @@ ul.tabs li.currentTab {
 .what-i-do {
   background-color: #fdf8f7;
   padding: 9em 4em 13em 4em; }
+  @media only screen and (max-width: 450px) {
+    .what-i-do {
+      padding: 9em 2em 6em 2em; } }
 
 .progress.skills {
   height: 2em;
   border-radius: .80em; }
 
 .what-i-do--border {
-  padding: 3em 4em;
-  border: solid 1.4px #446467; }
+  border: solid 1.4px #446467;
+  padding: 3em 4em; }
 
 .progress-bar {
   background-color: #05a0ab; }
 
 .working {
-  height: 15em;
+  height: 25em;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(27, 195, 159, 0.1)), to(rgba(27, 195, 159, 0.4))), url(../images/design.jpg) center top;
   background: linear-gradient(rgba(27, 195, 159, 0.1), rgba(27, 195, 159, 0.4)), url(../images/design.jpg) center top; }
 
-.contactme {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(27, 195, 159, 0.5)), to(rgba(27, 195, 159, 0.2))), url(../images/coffee4.jpg) center center;
-  background: linear-gradient(rgba(27, 195, 159, 0.5), rgba(27, 195, 159, 0.2)), url(../images/coffee4.jpg) center center; }
+@media only screen and (min-width: 501px) {
+  .contactme {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(27, 195, 159, 0.5)), to(rgba(27, 195, 159, 0.2))), url(../images/coffee4.jpg) center center;
+    background: linear-gradient(rgba(27, 195, 159, 0.5), rgba(27, 195, 159, 0.2)), url(../images/coffee4.jpg) center center; } }
+
+@media only screen and (max-width: 500px) {
+  .contactme {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.3))), url(../images/coffee4.jpg) center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../images/coffee4.jpg) center center; } }
 
 .parallax, .working, .contactme {
   position: relative;
@@ -319,7 +339,11 @@ a.social-footer:hover {
           transform: scale(1.5); }
 
 .portfolio {
-  padding: 7em 4em 15em 4em; }
+  padding: 12em 4em 15em 4em; }
+  @media only screen and (max-width: 450px) {
+    .portfolio {
+      padding-bottom: 4em;
+      padding-top: 7em; } }
 
 figure {
   font-family: "Roboto-Thin";
