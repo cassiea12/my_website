@@ -34,6 +34,13 @@ html, body {
     }
   }
 }
+
+.bg-header {
+  @media only screen and (max-width: 600px) {
+    background-attachment: inherit;
+  }
+}
+
 // NAVBAR HAMBURGER
 .navbar-light .navbar-toggler {
   border: $blue-accent solid 2px;

@@ -33,6 +33,10 @@ html, body {
       margin-left: .7em;
       padding-top: 20%; } }
 
+@media only screen and (max-width: 600px) {
+  .bg-header {
+    background-attachment: inherit; } }
+
 .navbar-light .navbar-toggler {
   border: #05a0ab solid 2px; }
 
@@ -305,6 +309,9 @@ ul.tabs li.currentTab {
   height: 25em;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(27, 195, 159, 0.1)), to(rgba(27, 195, 159, 0.4))), url(../images/design.jpg) center top;
   background: linear-gradient(rgba(27, 195, 159, 0.1), rgba(27, 195, 159, 0.4)), url(../images/design.jpg) center top; }
+  @media only screen and (max-width: 600px) {
+    .working {
+      height: 14em; } }
 
 @media only screen and (min-width: 501px) {
   .contactme {
@@ -318,12 +325,17 @@ ul.tabs li.currentTab {
 
 .contactme .social-space {
   padding: 1em; }
+  @media only screen and (max-width: 365px) {
+    .contactme .social-space {
+      padding: .5em; } }
 
 .parallax, .working, .contactme {
-  position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
+  @media only screen and (max-width: 600px) {
+    .parallax, .working, .contactme {
+      background-attachment: inherit; } }
 
 a.social:link, a:visited {
   color: #05a0ab;
