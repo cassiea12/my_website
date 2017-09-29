@@ -12,9 +12,13 @@
   border-radius: .80em;
 }
 
-.what-i-do--border {
-  border: solid 1.4px $blue-dark;
-  padding: 3em 4em;
+.card {
+  background-color: transparent;
+  border: 1px solid $lightest-grey;
+}
+
+.card-body {
+  padding: 4em;
 }
 
 .progress-bar {

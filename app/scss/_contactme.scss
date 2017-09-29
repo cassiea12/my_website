@@ -17,6 +17,9 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  @media only screen and (max-width: 750px) {
+// STOP PARALAX FOR SMALL SCREENS - WIDTH: 100% HEIGHT 100%;
+  }
 }
 
 a.social:link, a:visited {

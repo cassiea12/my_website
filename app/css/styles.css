@@ -72,6 +72,9 @@ nav#myNavbar, nav#myNavbar a {
 ul.tabs li.not-current, ul.tabs li.not-current:hover, ul.tabs li.currentTab, ul.tabs li.currentTab:hover, a.social:link, a:visited, a.social-footer:link, a.social-footer:visited {
   display: inline-block; }
 
+.col {
+  border: 1px solid transparent; }
+
 body {
   font-family: "Roboto-Regular"; }
 
@@ -288,9 +291,12 @@ ul.tabs li.currentTab {
   height: 2em;
   border-radius: .80em; }
 
-.what-i-do--border {
-  border: solid 1.4px #446467;
-  padding: 3em 4em; }
+.card {
+  background-color: transparent;
+  border: 1px solid #c3c3c3; }
+
+.card-body {
+  padding: 4em; }
 
 .progress-bar {
   background-color: #05a0ab; }
