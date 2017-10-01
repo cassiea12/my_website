@@ -202,20 +202,20 @@ a:hover {
 .about-me {
   padding: 6em 2em; }
 
-@media only screen and (max-width: 500px) {
-  .headshot {
-    padding: 0 0 0 4em;
-    width: 80%; } }
-
-@media only screen and (min-width: 600px) {
-  .headshot {
-    padding-right: 3em;
-    width: 100%; } }
-
-@media only screen and (min-width: 1200px) {
-  .headshot {
-    padding-right: 4em;
-    width: 80%; } }
+.headshot {
+  border-radius: 5%; }
+  @media only screen and (max-width: 750px) {
+    .headshot {
+      width: 35%; } }
+  @media only screen and (max-width: 500px) {
+    .headshot {
+      width: 55%; } }
+  @media only screen and (min-width: 751px) {
+    .headshot {
+      width: 75%; } }
+  @media only screen and (min-width: 1100px) {
+    .headshot {
+      width: 55%; } }
 
 ul.tabs {
   margin: 0;
@@ -291,19 +291,12 @@ ul.tabs li.currentTab {
     .what-i-do {
       padding: 9em 2em 6em 2em; } }
 
-.progress.skills {
-  height: 2em;
-  border-radius: .80em; }
-
 .card {
   background-color: transparent;
   border: 1px solid #c3c3c3; }
 
 .card-body {
   padding: 4em; }
-
-.progress-bar {
-  background-color: #05a0ab; }
 
 .working {
   height: 25em;
@@ -312,6 +305,22 @@ ul.tabs li.currentTab {
   @media only screen and (max-width: 600px) {
     .working {
       height: 14em; } }
+
+.card-body.design-spin:hover img.d-spin {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  transition: transform .8s ease-in-out, -webkit-transform .8s ease-in-out; }
+
+.card-body.code-spin:hover img.c-spin {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  transition: transform .8s ease-in-out, -webkit-transform .8s ease-in-out; }
 
 @media only screen and (min-width: 501px) {
   .contactme {

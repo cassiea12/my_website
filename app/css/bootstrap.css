@@ -411,49 +411,6 @@ tbody.collapse.show {
       margin-right: 15px;
       margin-left: 15px; } }
 
-@-webkit-keyframes progress-bar-stripes {
-  from {
-    background-position: 1rem 0; }
-  to {
-    background-position: 0 0; } }
-
-@keyframes progress-bar-stripes {
-  from {
-    background-position: 1rem 0; }
-  to {
-    background-position: 0 0; } }
-
-.progress {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 1rem;
-  overflow: hidden;
-  font-size: 0.75rem;
-  background-color: #e9ecef;
-  border-radius: 0.25rem; }
-
-.progress-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #fff;
-  background-color: #007bff; }
-
-.progress-bar-striped {
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-size: 1rem 1rem; }
-
-.progress-bar-animated {
-  -webkit-animation: progress-bar-stripes 1s linear infinite;
-          animation: progress-bar-stripes 1s linear infinite; }
-
 .close {
   float: right;
   font-size: 1.5rem;
@@ -854,13 +811,14 @@ button.close {
 .pb-3 {
   padding-bottom: 1rem !important; }
 
-.pt-4 {
+.py-4 {
   padding-top: 1.5rem !important; }
 
 .pr-4 {
   padding-right: 1.5rem !important; }
 
-.pb-4 {
+.pb-4,
+.py-4 {
   padding-bottom: 1.5rem !important; }
 
 .pt-5 {
@@ -868,9 +826,6 @@ button.close {
 
 .pb-5 {
   padding-bottom: 3rem !important; }
-
-.pl-5 {
-  padding-left: 3rem !important; }
 
 .my-auto {
   margin-top: auto !important; }
