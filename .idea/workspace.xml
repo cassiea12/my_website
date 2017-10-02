@@ -2,81 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0455e1ca-dacb-42c1-861d-71519e7f02d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/design.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/documentary/sitemap.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/documentary/wireframe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/etd/draft.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/etd/final.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/etd/finished.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/etd/old_dashboard.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/etd/planning.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/desktop_wireframe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/m9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/portfolio/mobile_wireframe.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/documentary/documentary.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/documentary/moodboard2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/etd/draft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/etd/final.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/etd/finished.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/etd/old_dashboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/etd/planning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/desktop_wireframe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/m9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/portfolio/mobile_wireframe.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/documentary/fans.jpg" afterPath="$PROJECT_DIR$/app/images/documentary/fans.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/documentary/film.jpg" afterPath="$PROJECT_DIR$/app/images/documentary/film.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/documentary/gallery.jpg" afterPath="$PROJECT_DIR$/app/images/documentary/gallery.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/documentary/home.jpg" afterPath="$PROJECT_DIR$/app/images/documentary/home.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/documentary/muir.jpg" afterPath="$PROJECT_DIR$/app/images/documentary/muir.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/documentary/team.jpg" afterPath="$PROJECT_DIR$/app/images/documentary/team.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/documentary/tile.jpg" afterPath="$PROJECT_DIR$/app/images/documentary/tile.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/documentary/trail.jpg" afterPath="$PROJECT_DIR$/app/images/documentary/trail.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/documentary/videos.jpg" afterPath="$PROJECT_DIR$/app/images/documentary/videos.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/etd/etd.jpg" afterPath="$PROJECT_DIR$/app/images/etd/etd.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/portfolio/portfolio.jpg" afterPath="$PROJECT_DIR$/app/images/portfolio/portfolio.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/metalab.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/design.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/clean.jpg" afterPath="$PROJECT_DIR$/app/images/clean.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/bootstrap.css" afterPath="$PROJECT_DIR$/app/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/styles.css" afterPath="$PROJECT_DIR$/app/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_aboutme.scss" afterPath="$PROJECT_DIR$/app/scss/_aboutme.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_contactme.scss" afterPath="$PROJECT_DIR$/app/scss/_contactme.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_what-i-do.scss" afterPath="$PROJECT_DIR$/app/scss/_what-i-do.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,18 +23,25 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="63" column="33" lean-forward="false" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+            <state relative-caret-position="245">
+              <caret line="150" column="48" lean-forward="false" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_aboutme.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="coffee4.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/images/coffee4.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_aboutme.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/_aboutme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="179">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <marker date="1506899212000" expanded="true" signature="936:955" ph="..." />
               </folding>
@@ -111,11 +49,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_what-i-do.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="design.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/images/design.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headshot.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/images/headshot.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_what-i-do.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scss/_what-i-do.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="42" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="37" selection-end-column="42" />
+            <state relative-caret-position="314">
+              <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -131,11 +83,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="_contactme.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/_contactme.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>curs</find>
       <find>portfolio-</find>
       <find>mile</find>
       <find>text-blu</find>
@@ -165,6 +126,7 @@
       <find>docu</find>
       <find>etd</find>
       <find>progress</find>
+      <find>design.</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -200,12 +162,12 @@
         <option value="$PROJECT_DIR$/app/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/app/scss/_space.scss" />
         <option value="$PROJECT_DIR$/app/scss/_header.scss" />
-        <option value="$PROJECT_DIR$/app/scss/_contactme.scss" />
         <option value="$PROJECT_DIR$/app/js/custom.js" />
         <option value="$PROJECT_DIR$/app/scss/_type.scss" />
-        <option value="$PROJECT_DIR$/app/scss/_what-i-do.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scss/_aboutme.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_contactme.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_what-i-do.scss" />
       </list>
     </option>
   </component>
@@ -281,24 +243,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom_front-end_boilerplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_website" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,12 +375,12 @@
       <workItem from="1506546830648" duration="18840000" />
       <workItem from="1506581559166" duration="4504000" />
       <workItem from="1506718724926" duration="3167000" />
-      <workItem from="1506812036098" duration="13606000" />
+      <workItem from="1506812036098" duration="15481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326418000" />
+    <option name="totallyTimeSpent" value="328293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -491,11 +435,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/images/etd/old_dashboard.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/images/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -613,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_contactme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -638,27 +570,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/coffee4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/images/design.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/design.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/headshot.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/clean.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -738,11 +650,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/design.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/images/code.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -756,29 +663,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/clean.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_aboutme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <marker date="1506899212000" expanded="true" signature="936:955" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/headshot.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/design.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/coffee4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/metalab.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/design.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="63" column="33" lean-forward="false" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+        <state relative-caret-position="245">
+          <caret line="150" column="48" lean-forward="false" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_contactme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/_what-i-do.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="42" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="37" selection-end-column="42" />
+        <state relative-caret-position="314">
+          <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_aboutme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <marker date="1506899212000" expanded="true" signature="936:955" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>

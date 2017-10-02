@@ -300,8 +300,8 @@ ul.tabs li.currentTab {
 
 .working {
   height: 25em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(27, 195, 159, 0.1)), to(rgba(27, 195, 159, 0.4))), url(../images/design.jpg) center top;
-  background: linear-gradient(rgba(27, 195, 159, 0.1), rgba(27, 195, 159, 0.4)), url(../images/design.jpg) center top; }
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(27, 195, 159, 0.2)), to(rgba(27, 195, 159, 0.2))), url(../images/metalab.jpg) center top;
+  background: linear-gradient(rgba(27, 195, 159, 0.2), rgba(27, 195, 159, 0.2)), url(../images/metalab.jpg) center top; }
   @media only screen and (max-width: 600px) {
     .working {
       height: 14em; } }

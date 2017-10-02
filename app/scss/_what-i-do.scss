@@ -19,7 +19,7 @@
 .working {
   @extend .parallax;
   height: 25em;
-  background: linear-gradient($main-green--1, $main-green--4), url(../images/design.jpg) center top;
+  background: linear-gradient($main-green--2, $main-green--2), url(../images/metalab.jpg) center top;
   @media only screen and (max-width: 600px) {
     height: 14em;
   }
@@ -38,7 +38,3 @@
     transition: transform .8s ease-in-out;
   }
 }
-
-//img.spin {
-//  transition: transform .8s ease-in-out;
-//}
