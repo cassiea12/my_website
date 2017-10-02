@@ -215,7 +215,7 @@ a:hover {
       width: 75%; } }
   @media only screen and (min-width: 1100px) {
     .headshot {
-      width: 55%; } }
+      width: 63%; } }
 
 ul.tabs {
   margin: 0;
@@ -286,7 +286,7 @@ ul.tabs li.currentTab {
 
 .what-i-do {
   background-color: #fdf8f7;
-  padding: 9em 4em 13em 4em; }
+  padding: 6em 4em; }
   @media only screen and (max-width: 450px) {
     .what-i-do {
       padding: 9em 2em 6em 2em; } }
@@ -373,7 +373,7 @@ a.social-footer:hover {
           transform: scale(1.5); }
 
 .portfolio {
-  padding: 12em 4em 15em 4em; }
+  padding: 6em 4em; }
   @media only screen and (max-width: 450px) {
     .portfolio {
       padding-bottom: 4em;
@@ -471,8 +471,8 @@ figure:hover figcaption::before {
   opacity: 0;
   -webkit-transition: all .4s linear;
   transition: all .4s linear;
-  -webkit-transform: translate3d(0, 50%, 0);
-          transform: translate3d(0, 50%, 0); }
+  -webkit-transform: translate3d(0, 55%, 0);
+          transform: translate3d(0, 55%, 0); }
 
 .animation-element.fadeInUp.in-view {
   opacity: 1;
