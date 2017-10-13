@@ -471,8 +471,8 @@ figure:hover figcaption::before {
   opacity: 0;
   -webkit-transition: all .4s linear;
   transition: all .4s linear;
-  -webkit-transform: translate3d(0, 55%, 0);
-          transform: translate3d(0, 55%, 0); }
+  -webkit-transform: translate3d(0, 75%, 0);
+          transform: translate3d(0, 75%, 0); }
 
 .animation-element.fadeInUp.in-view {
   opacity: 1;
