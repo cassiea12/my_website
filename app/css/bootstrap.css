@@ -81,15 +81,6 @@ a {
     color: #0056b3;
     text-decoration: underline; }
 
-a:not([href]):not([tabindex]) {
-  color: inherit;
-  text-decoration: none; }
-  a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
-    color: inherit;
-    text-decoration: none; }
-  a:not([href]):not([tabindex]):focus {
-    outline: 0; }
-
 figure {
   margin: 0 0 1rem; }
 
