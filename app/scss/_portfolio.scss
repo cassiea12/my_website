@@ -1,8 +1,9 @@
 .portfolio {
-  padding: 6em 4em;
+  padding-top: 6em;
   @media only screen and (max-width: 450px) {
     padding-bottom: 4em;
     padding-top: 7em;
+
   }
 }
 
@@ -94,4 +95,31 @@ figure:hover figcaption::before {
 .modal-lg {
   max-width: 900px !important;
 }
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../images/slide-left.png');
+}
+
+.carousel-control-next-icon {
+  background-image: url('../images/slide-right.png');
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  width: 4em;
+  opacity: 1;
+}
+
+div#carouselExampleControls {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.carousel-control-prev:focus, .carousel-control-prev:hover, .carousel-control-next:focus, .carousel-control-next:hover {
+  opacity: .5;
 }

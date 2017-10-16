@@ -45,7 +45,7 @@ gulp.task('sass', function() {
                 /\.tooltip/,
                 /\.popover/,
                 /\.collaps/,
-                /\.carousel-inner/
+                /\.carousel/
             ]
         }))
         .pipe(autoprefixer(autoprefixerOptions)) // auto adds vendor prefixes

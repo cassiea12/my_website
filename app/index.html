@@ -184,38 +184,84 @@ View her portfolio and learn more about what she does.">
         </div>
     </div>
     <article class="row  animation-element fadeInUp">
-        <div class="col-12 col-sm-4 mb-5">
-            <figure class="float-left text-center" data-toggle="modal" data-target="#documentary">
-                <img src="images/documentary/home.jpg" alt="documentary website design"/>
-                <figcaption>
-                    <h2 class="text-white">Mile, Mile & A Half</h2>
-                    <h3>Design</h3>
-                </figcaption>
-            </figure>
-        </div>
-        <div class="col-12 col-sm-4 mb-5">
-            <figure class="float-left text-center" data-toggle="modal" data-target="#etd">
-                <img src="images/etd/etd.jpg" alt="ETD design and code"/>
-                <figcaption>
-                    <h2 class="text-white">CSUN ETD</h2>
-                    <h3>Design / Code</h3>
-                </figcaption>
-            </figure>
-        </div>
-        <div class="col-12 col-sm-4 mb-5">
-            <figure class="float-left text-center" data-toggle="modal" data-target="#portfolioSite">
-                <img src="images/portfolio/portfolio.jpg" alt="portfolio website design and code"/>
-                <figcaption>
-                    <h2 class="text-white">Portfolio Site</h2>
-                    <h3>Design / Code</h3>
-                </figcaption>
-            </figure>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="col-12 col-sm-4 float-left">
+                        <figure class="text-center" data-toggle="modal" data-target="#mph">
+                            <img class="d-block w-100" src="images/mph/home.jpg" alt="Missing Person Hub Design / Code"/>
+                            <figcaption>
+                                <h2 class="text-white">Missing Person Hub</h2>
+                                <h3>Design / Code</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm-4 float-left">
+                        <figure class="text-center" data-toggle="modal" data-target="#etd">
+                            <img class="d-block w-100" src="images/etd/etd.jpg" alt="ETD design and code"/>
+                            <figcaption>
+                                <h2 class="text-white">CSUN ETD</h2>
+                                <h3>Design / Code</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm-4 float-left">
+                        <figure class="text-center" data-toggle="modal" data-target="#portfolioSite">
+                            <img class="d-block w-100" src="images/portfolio/portfolio.jpg" alt="portfolio website design and code"/>
+                            <figcaption>
+                                <h2 class="text-white">Portfolio Site</h2>
+                                <h3>Design / Code</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-sm-4 float-left">
+                        <figure class="text-center d-block w-100">
+                            <img class="d-block w-100" src="images/documentary/home.jpg" alt="documentary website design"/>
+                            <figcaption>
+                                <h2 class="text-white">Mile, Mile & A Half</h2>
+                                <h3>Design</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm-4 float-left">
+                        <figure class="text-center d-block w-100">
+                            <img class="d-block w-100" src="images/current-project.jpg" alt="Inventors Circle"/>
+                            <figcaption>
+                                <h2 class="text-white">Inventors Circle</h2>
+                                <h3>Design / Code</h3>
+                                <h3 class="text-blue">Project in-progress</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm-4 float-left">
+                        <figure class="text-center d-block w-100">
+                            <img class="d-block w-100" src="images/current-project2.jpg" alt="JavaScript Game"/>
+                            <figcaption>
+                                <h2 class="text-white">JavaScript Game</h2>
+                                <h3>Design / Code</h3>
+                                <h3 class="text-blue">Project in-progress</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </article>
     <!--<div id="contact"></div>-->
 </section>
-<!-- DOC MODALS -->
-<div class="modal fade" id="documentary" tabindex="-1" role="dialog" aria-labelledby="documentary" aria-hidden="true">
+<!-- MPH MODAL -->
+<!--TO DO: CHECK ARIA LABEL BY below-->
+<div class="modal fade" id="mph" tabindex="-1" role="dialog" aria-labelledby="missing-person-hub" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -224,66 +270,76 @@ View her portfolio and learn more about what she does.">
                 </button>
             </div>
             <div class="modal-body project-padding">
-                <div class="row">
+                <div class="row mb-5">
                     <div class="col-12">
-                        <h1 class="modal-title pb-1">Mile, Mile & A Half</h1>
-                        <h2 class="pb-1">Web Design</h2>
-                        <p>I designed a website for the documentary Mile, Mile and a Half. I am a huge fan of
-                            the film,
-                            and thought it deserved a beautiful website to go with it. I began by creating a few
-                            moodboards.
-                            Moodboards help
-                            me and the client understand the overall look and feel of the website without getting bogged
-                            down with the details of the
-                            website. After a mood board direction was chosen, I created a few style tiles which provide
-                            a higher level
-                            of detail such as what some main elements may look like. After a style tile was approved, I
-                            created the site map
-                            to show the pages and the linked relationships among them. Next I created wireframes to map
-                            out individual pages of the site.
-                            Last, I skinned the wireframe, creating the finished website design.
+                        <h1 class="modal-title pb-1">Missing Person Hub</h1>
+                        <h2 class="pb-1">Web Design & Code</h2>
+                        <p class="text-green"><i class="fa fa-trophy fa-lg text-green" aria-hidden="true"></i> 2ND PLACE WINNER IN CODE-A-THON COMPETITION</p>
+                        <p>I was the Lead Front-End Developer in team of 4 at a 24-hour code-a-thon hosted by <a href="http://www.northropgrumman.com/AboutUs/Welcome/default.aspx" target="_blank">Northrop Grumman</a> (10/14/2017).
+                            We had 24 hours to create a web application that helps people during a natural disaster in some way. My team created a simple
+                            web application that is used to report missing and found people.
+                            <br><br>
+                            The workflow works like this: <br>
+                            When landing on the home page, the user has the option to
+                            chose "Report Missing Person" or "Report Found Person."
+                            <br><br>
+                            "Report Missing Person" takes the user to a 3-step form to fill out about
+                            the missing person which then places that person on a map based on the last known location of the report. Two questions must
+                            also be provided with answers only the missing person would know. This was added as an extra form of validity.
+                            <br><br>
+                            "Report Found Person"
+                            takes the user to the maps page where they can search for a person via the name and general location sidebar, the location on the map, or the name on the list.
+                            The user can click the map pin or list name to see more details of the person as well as
+                            report the person as found. To complete the process, 2 correct answers must be provided to the questions given.
+                            Once the correct answers are provided, the person's status on the list view changes from "Missing" to "Found" and the person
+                            who reported the person as missing is sent an email with the update."
                         </p>
-                        <p class="text-blue">Technologies / Tools : Adobe Photoshop
-                        </p>
+
+                        <p class="text-blue">Technologies / Tools : HTML, CSS, Sass, Bootstrap, JavaScript, jQuery, Laravel, Git, GitHub</p>
+                        <p><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                            Sorry, Private Repo initialized by Northrop Grumman on GitHub</p>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col">
+                        <img src="images/mph/home.jpg" alt="home page">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-sm-6 mb-6">
-                        <h5 class="text-center mb-4 modal-caption">Moodboard</h5>
-                        <img src="images/documentary/moodboard.jpg" alt="moodboard">
-                    </div>
-                    <div class="col-sm-6 mb-6">
-                        <h5 class="text-center mb-4 modal-caption">Style Tile</h5>
-                        <img src="images/documentary/tile.jpg" alt="style tile">
-                    </div>
-                </div>
-                <div class="row mb-6">
                     <div class="col">
-                        <div class="row mb-6">
-                            <div class="col-12">
-                                <h5 class="text-center mb-4 modal-caption">Sitemap</h5>
-                                <img src="images/documentary/sitemap.jpg" alt="sitemap">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <h5 class="text-center mb-4 modal-caption">Wireframe</h5>
-                                <img src="images/documentary/wireframe.jpg" alt="wireframe">
-                            </div>
-                        </div>
+                        <img src="images/mph/step1.jpg" class="modal-img--border mb-5"
+                             alt="missing person form step 1">
+                        <img src="images/mph/step2.jpg" class="modal-img--border mb-5"
+                             alt="missing person form step 2">
+                        <img src="images/mph/step3.jpg" class="modal-img--border mb-5"
+                             alt="missing person form step 3">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <h5 class="text-center mb-4 mt-4 modal-caption">Final Website Design</h5>
-                        <img src="images/documentary/home.jpg" alt="home page" class="mb-5">
-                        <img src="images/documentary/film.jpg" alt="about the film" class="mb-5">
-                        <img src="images/documentary/team.jpg" alt="the team" class="mb-5">
-                        <img src="images/documentary/fans.jpg" alt="the fans" class="mb-5">
-                        <img src="images/documentary/trail.jpg" alt="the trail" class="mb-5">
-                        <img src="images/documentary/muir.jpg" alt="the muir project" class="mb-5">
-                        <img src="images/documentary/gallery.jpg" alt="gallery" class="mb-5">
-                        <img src="images/documentary/videos.jpg" alt="videos page" class="mb-5">
+                        <p>If there was more time I would have changed each red pin icon on the map to a small circular picture of the missing person's face.
+                            I would have also added the picture to the modal that pops up when a person is clicked.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col">
+                        <img src="images/mph/map.jpg" class="modal-img--border mb-5"
+                             alt="Search, map and list of missing people">
+                        <img src="images/mph/modal.jpg" class="modal-img--border mb-5"
+                             alt="Report Person Found Modal">
+                    </div>
+                </div>
+                <div class="row mb-6 mt-4">
+                    <div class="col-12">
+                        <h5 class="text-center pb-3 modal-caption">Mobile View</h5>
+                    </div>
+                    <div class="col">
+                        <img src="images/mph/home-mobile.jpg" class="modal-img--border mb-5"
+                             alt="Mobile Homepage">
+                    </div>
+                    <div class="col">
+                        <img src="images/mph/step-mobile.jpg" class="modal-img--border mb-5"
+                             alt="Mobile Missing Person Page">
                     </div>
                 </div>
             </div>
@@ -306,7 +362,7 @@ View her portfolio and learn more about what she does.">
                         <h1 class="modal-title pb-1">CSUN's Electronic Thesis and Dissertation Web Application</h1>
                         <h2 class="pb-1">Web Design & Code</h2>
                         <p> ETD is a web application Graduate Students, Faculty Members, Graduate Coordinators, and RGS
-                            Evaluators at California State University Northridge use for the process of theses
+                            Evaluators at <a href="https://www.csun.edu/" target="_blank">California State University Northridge</a> use for the process of theses
                             completions.
 
                             The old ETD website had a very
@@ -337,6 +393,8 @@ View her portfolio and learn more about what she does.">
                         <p class="text-blue">Technologies / Tools : Adobe XD, HTML, CSS, JavaScript, jQuery, Gulp,
                             Sass,
                             Larval Blade, and CSUN’s UI kit and CSS framework - “Metaphor.”</p>
+                        <p><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                            Sorry, Private Repo on GitHub</p>
                     </div>
                 </div>
                 <div class="row mb-5">
@@ -444,9 +502,85 @@ View her portfolio and learn more about what she does.">
         </div>
     </div>
 </div>
+<!-- DOC MODALS -->
+<div class="modal fade" id="documentary" tabindex="-1" role="dialog" aria-labelledby="documentary" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-times text-green fa-lg" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="modal-body project-padding">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="modal-title pb-1">Mile, Mile & A Half</h1>
+                        <h2 class="pb-1">Web Design</h2>
+                        <p>I designed a website for the documentary Mile, Mile and a Half. I am a huge fan of
+                            the film,
+                            and thought it deserved a beautiful website to go with it. I began by creating a few
+                            moodboards.
+                            Moodboards help
+                            me and the client understand the overall look and feel of the website without getting bogged
+                            down with the details of the
+                            website. After a mood board direction was chosen, I created a few style tiles which provide
+                            a higher level
+                            of detail such as what some main elements may look like. After a style tile was approved, I
+                            created the site map
+                            to show the pages and the linked relationships among them. Next I created wireframes to map
+                            out individual pages of the site.
+                            Last, I skinned the wireframe, creating the finished website design.
+                        </p>
+                        <p class="text-blue">Technologies / Tools : Adobe Photoshop
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-sm-6 mb-6">
+                        <h5 class="text-center mb-4 modal-caption">Moodboard</h5>
+                        <img src="images/documentary/moodboard.jpg" alt="moodboard">
+                    </div>
+                    <div class="col-sm-6 mb-6">
+                        <h5 class="text-center mb-4 modal-caption">Style Tile</h5>
+                        <img src="images/documentary/tile.jpg" alt="style tile">
+                    </div>
+                </div>
+                <div class="row mb-6">
+                    <div class="col">
+                        <div class="row mb-6">
+                            <div class="col-12">
+                                <h5 class="text-center mb-4 modal-caption">Sitemap</h5>
+                                <img src="images/documentary/sitemap.jpg" alt="sitemap">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h5 class="text-center mb-4 modal-caption">Wireframe</h5>
+                                <img src="images/documentary/wireframe.jpg" alt="wireframe">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h5 class="text-center mb-4 mt-4 modal-caption">Final Website Design</h5>
+                        <img src="images/documentary/home.jpg" alt="home page" class="mb-5">
+                        <img src="images/documentary/film.jpg" alt="about the film" class="mb-5">
+                        <img src="images/documentary/team.jpg" alt="the team" class="mb-5">
+                        <img src="images/documentary/fans.jpg" alt="the fans" class="mb-5">
+                        <img src="images/documentary/trail.jpg" alt="the trail" class="mb-5">
+                        <img src="images/documentary/muir.jpg" alt="the muir project" class="mb-5">
+                        <img src="images/documentary/gallery.jpg" alt="gallery" class="mb-5">
+                        <img src="images/documentary/videos.jpg" alt="videos page" class="mb-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Contact Me -->
 <footer class="container-fluid">
-    <div class="row parallax contactme" id="contact">
+    <div class="row parallax contactme mt-6" id="contact">
         <div class="col">
             <div class="row py-4 pb-4">
                 <div class="col-sm-12 col-md-5 col-lg-3">

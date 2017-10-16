@@ -73,6 +73,9 @@ nav#myNavbar, nav#myNavbar a {
 .mb-6 {
   margin-bottom: 6em; }
 
+.mt-6 {
+  margin-top: 6em; }
+
 ul.tabs li.not-current, ul.tabs li.not-current:hover, ul.tabs li.currentTab, ul.tabs li.currentTab:hover, a.social:link, a:visited, a.social-footer:link, a.social-footer:visited {
   display: inline-block; }
 
@@ -373,7 +376,7 @@ a.social-footer:hover {
           transform: scale(1.5); }
 
 .portfolio {
-  padding: 6em 4em; }
+  padding-top: 6em; }
   @media only screen and (max-width: 450px) {
     .portfolio {
       padding-bottom: 4em;
@@ -467,6 +470,27 @@ figure:hover figcaption::before {
   .modal-lg {
     max-width: 900px !important; } }
 
+.carousel-control-prev-icon {
+  background-image: url("../images/slide-left.png"); }
+
+.carousel-control-next-icon {
+  background-image: url("../images/slide-right.png"); }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 60px;
+  height: 60px; }
+
+.carousel-control-prev, .carousel-control-next {
+  width: 4em;
+  opacity: 1; }
+
+div#carouselExampleControls {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.carousel-control-prev:focus, .carousel-control-prev:hover, .carousel-control-next:focus, .carousel-control-next:hover {
+  opacity: .5; }
+
 .animation-element.fadeInUp {
   opacity: 0;
   -webkit-transition: all .4s linear;
@@ -482,5 +506,3 @@ figure:hover figcaption::before {
 .animation-element {
   opacity: 0;
   position: relative; }
-
-/*media queries for small devices*/
