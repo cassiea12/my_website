@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/styles.css" afterPath="$PROJECT_DIR$/app/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_portfolio.scss" afterPath="$PROJECT_DIR$/app/scss/_portfolio.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="245" column="55" lean-forward="false" selection-start-line="245" selection-start-column="55" selection-end-line="245" selection-end-column="55" />
+            <state relative-caret-position="345">
+              <caret line="242" column="75" lean-forward="false" selection-start-line="242" selection-start-column="75" selection-end-line="242" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -68,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/app/scss/_contactme.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,8 +76,8 @@
       <file leaf-file-name="_portfolio.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scss/_portfolio.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="77" column="3" lean-forward="false" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
+            <state relative-caret-position="472">
+              <caret line="71" column="43" lean-forward="false" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -88,20 +87,24 @@
         <entry file="file://$PROJECT_DIR$/app/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-4793">
-              <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+              <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
               <folding>
-                <marker date="1508201638000" expanded="true" signature="11884:11886" ph="{...}" />
-                <marker date="1508201638000" expanded="true" signature="11902:11952" ph="{...}" />
-                <marker date="1508201638000" expanded="true" signature="11967:11990" ph="{...}" />
-                <marker date="1508201638000" expanded="true" signature="12020:12051" ph="{...}" />
-                <marker date="1508201638000" expanded="true" signature="12069:12087" ph="{...}" />
-                <marker date="1508201638000" expanded="true" signature="12108:12140" ph="{...}" />
-                <marker date="1508201638000" expanded="true" signature="12168:12220" ph="{...}" />
-                <marker date="1508201638000" expanded="true" signature="12182:12218" ph="{...}" />
-                <marker date="1508201638000" expanded="true" signature="12250:12306" ph="{...}" />
-                <marker date="1508201638000" expanded="true" signature="12336:12393" ph="{...}" />
-                <marker date="1508201638000" expanded="true" signature="12596:12644" ph="{...}" />
-                <marker date="1508201638000" expanded="true" signature="12813:12988" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="11983:11985" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12001:12051" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12066:12089" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12119:12150" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12168:12186" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12207:12239" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12267:12319" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12281:12317" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12349:12405" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12435:12492" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12551:12585" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12634:12665" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12695:12743" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="12912:13087" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="13125:13240" ph="{...}" />
+                <marker date="1508202438000" expanded="true" signature="13261:13300" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -239,56 +242,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="my_website" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom_front-end_boilerplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_website" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom_front-end_boilerplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_website" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom_front-end_boilerplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_website" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,12 +383,12 @@
       <workItem from="1508120148916" duration="16206000" />
       <workItem from="1508167810299" duration="326000" />
       <workItem from="1508168407284" duration="637000" />
-      <workItem from="1508172749790" duration="2849000" />
+      <workItem from="1508172749790" duration="3407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360745000" />
+    <option name="totallyTimeSpent" value="361303000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -694,7 +647,7 @@
     <entry file="file://$PROJECT_DIR$/app/scss/_contactme.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -710,36 +663,40 @@
     <entry file="file://$PROJECT_DIR$/app/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4793">
-          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding>
-            <marker date="1508201638000" expanded="true" signature="11884:11886" ph="{...}" />
-            <marker date="1508201638000" expanded="true" signature="11902:11952" ph="{...}" />
-            <marker date="1508201638000" expanded="true" signature="11967:11990" ph="{...}" />
-            <marker date="1508201638000" expanded="true" signature="12020:12051" ph="{...}" />
-            <marker date="1508201638000" expanded="true" signature="12069:12087" ph="{...}" />
-            <marker date="1508201638000" expanded="true" signature="12108:12140" ph="{...}" />
-            <marker date="1508201638000" expanded="true" signature="12168:12220" ph="{...}" />
-            <marker date="1508201638000" expanded="true" signature="12182:12218" ph="{...}" />
-            <marker date="1508201638000" expanded="true" signature="12250:12306" ph="{...}" />
-            <marker date="1508201638000" expanded="true" signature="12336:12393" ph="{...}" />
-            <marker date="1508201638000" expanded="true" signature="12596:12644" ph="{...}" />
-            <marker date="1508201638000" expanded="true" signature="12813:12988" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="11983:11985" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12001:12051" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12066:12089" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12119:12150" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12168:12186" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12207:12239" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12267:12319" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12281:12317" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12349:12405" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12435:12492" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12551:12585" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12634:12665" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12695:12743" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="12912:13087" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="13125:13240" ph="{...}" />
+            <marker date="1508202438000" expanded="true" signature="13261:13300" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="245" column="55" lean-forward="false" selection-start-line="245" selection-start-column="55" selection-end-line="245" selection-end-column="55" />
+        <state relative-caret-position="345">
+          <caret line="242" column="75" lean-forward="false" selection-start-line="242" selection-start-column="75" selection-end-line="242" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/_portfolio.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="77" column="3" lean-forward="false" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
+        <state relative-caret-position="472">
+          <caret line="71" column="43" lean-forward="false" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
           <folding />
         </state>
       </provider>
